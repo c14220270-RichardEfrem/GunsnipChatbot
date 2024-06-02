@@ -1,0 +1,381 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye"
+      ],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thank's a lot!"
+      ],
+      "responses": [
+        "Happy to help!",
+        "Any time!",
+        "My pleasure"
+      ]
+    },
+    {
+      "tag": "models",
+      "patterns": [
+        "What Gundam models are available?",
+        "Tell me about Gundam model kits.",
+        "Grade",
+        "Model",
+        "Gundam Grade",
+        "All gundam grade",
+        "What is gundam grade"
+      ],
+      "responses": [
+        "We have various Gundam model Starting from High Grade(HG), Real Grade(RG), Master Grade(MG), Perfect Grade(PG), and many more.",
+        "Gundam model kits include High Grade (HG), Master Grade (MG), Perfect Grade (PG) and various more."
+      ]
+    },
+    {
+      "tag": "Series",
+      "patterns": [
+        "Show me all gundam series",
+        "Gundam Series",
+        "are there any gundam series",
+        "what kind of series available in gundam",
+        "what gundam series",
+        "tell me about gundam series",
+        "series"
+      ],
+      "responses": [
+        "There are a lot of gundam series Available to choose or probably to watch, for example Gundam Unicorn, Iron Blooded Orphans, Gundam Seed, and many more. To find out more you could check it here <link>",
+        "Gundam have a lot of series variety like Gundam Seed, Gundam Wing, Gundam 00, and many more. To find more, you could check here <link>"
+      ]
+    },
+    {
+      "tag": "error",
+      "patterns": [
+        "I can't log in to my account",
+        "i can't login to my account",
+        "i'm getting an error",
+        "the gundam cannot be opened",
+        "account error",
+        "getting problem with logging in"
+      ],
+      "responses": [
+        "Please Contact Our Customer Service At <Email> for further Help"
+      ]
+    },
+    {
+      "tag": "anime",
+      "patterns": [
+        "are there any gundam anime",
+        "what kind of gundam anime are there",
+        "show me all gundam anime",
+        "give me some gundam anime",
+        "anime"
+      ],
+      "responses": [
+        "There are a lot of gundam anime, some reccomendation would be Mobile Suit Gundam Unicorn, Mobile Suit Gundam 00, and Mobile Suit Gundam The Witch From Mercury"
+      ]
+    },
+    {
+      "tag": "gundam",
+      "patterns": [
+        "what is a gundam",
+        "what gundam",
+        "gundam info",
+        "gundam information",
+        "gundam",
+        "how gundam",
+        "give me information about gundam"
+      ],
+      "responses": [
+        "Gundam is a Japanese military science fiction media franchise. Created by Yoshiyuki Tomino and Sunrise (now Bandai Namco Filmworks), the franchise features giant robots, or mecha, with the name Gundam. The Company that owns the franchise decided to release plastic model kit for this Gundam called Gunpla(Gundam Plastic Model) and have been one of the best model kit to date"
+      ]
+    },
+    {
+      "tag": "HighGrade",
+      "patterns": [
+        "Can You tell me about High grade?",
+        "Explain about High Grade?",
+        "What is the most common Grade?",
+        "What Grade is good for beginner?",
+        "High Grade"
+      ],
+      "responses": [
+        "High grade is the most common grade in gunplay for more information click here <link>", 
+		    "IF you want to start a gunplay hobby, you should start with High grade line. It is pretty simple to assemble and it has a right amount of detail for it's price point.", 
+		    "High grade is the most beginner friendly kit for a new comer. it is easy to assemble, not much problem to fix and the final product is pretty anime accurate.",
+		    "High grade is the perfect starting point for a beginner. it has less part and the final product is great for its price point."
+      ]
+    },
+    {
+      "tag": "RealGrade",
+      "patterns": [
+        "Can You tell me about Real grade?",
+        "Explain about Real Grade?",
+        " is Real Grade Good?",
+        "Is real Grade Good For Beginner?",
+        "Real Grade"
+      ],
+      "responses": [
+        "Real grade is a gunpla line that try to reimagine a gundam design if it were exist in real life. The line has a lot of detail and decals. some people call it a master grade for high grade size",
+        "for beginner, real grade is not recommended. Even though it has a lot of cool gimmicks and detail. Real grade has a lot of small parts and easily breakable pieces. The builder need to be careful at the assembly process which is not very beginner friendly.",
+        ""
+      ]
+    },
+    {
+      "tag": "MasterGrade",
+      "patterns": [
+        "Can you tell me about Master Grade?",
+        "Explain about Master Grade?",
+        "Is Master Grade good?",
+        "Is Master Grade good for beginners?",
+        "Master Grade"
+      ],
+      "responses": [
+        "Master Grade (MG) is a line of Gunpla that offers a 1/100 scale model with a high level of detail and articulation. These kits are designed to provide a more challenging and rewarding building experience with a higher degree of complexity compared to High Grade (HG) kits.",
+        "Master Grade kits are generally not recommended for absolute beginners due to their complexity and the detailed assembly process. However, they can be a great choice for builders with some experience who are looking to advance their skills and enjoy a more intricate build.",
+        "Master Grade models often come with an inner frame, which allows for a wide range of motion and poseability, as well as a variety of accessories and decals for added detail."
+      ]
+    },
+    {
+      "tag": "FullMechanics",
+      "patterns": [
+        "Can you tell me about Full Mechanics?",
+        "Explain about Full Mechanics?",
+        "Is Full Mechanics good?",
+        "Is Full Mechanics good for beginners?",
+        "Full Mechanics"
+      ],
+      "responses": [
+        "Full Mechanics is a line of Gunpla kits that offers a 1/100 scale model similar to Master Grade but without an inner frame. These kits focus on ease of assembly and sturdy construction while still providing a high level of detail and articulation.",
+        "Full Mechanics kits can be a good choice for builders who want a more detailed model than High Grade but are not ready for the complexity of Master Grade or Perfect Grade. They offer a good balance of detail and ease of assembly.",
+        "Full Mechanics kits are generally suitable for beginners who have some experience with High Grade kits and want to try building a larger and more detailed model."
+      ]
+    },
+    {
+      "tag": "PerfectGrade",
+      "patterns": [
+        "Can you tell me about Perfect Grade?",
+        "Explain about Perfect Grade?",
+        "Is Perfect Grade good?",
+        "Is Perfect Grade good for beginners?",
+        "Perfect Grade"
+      ],
+      "responses": [
+        "Perfect Grade (PG) is the highest-end line of Gunpla kits, offering a 1/60 scale model with exceptional detail, articulation, and complexity. These kits are designed to provide the most realistic and intricate representations of Gundam designs.",
+        "Perfect Grade kits are not recommended for beginners due to their high complexity, large number of parts, and the time required for assembly. They are best suited for experienced builders looking for a challenging and rewarding project.",
+        "Perfect Grade models come with advanced features such as LED lighting, detailed inner frames, and numerous accessories. They are the pinnacle of Gunpla engineering and offer a premium building experience."
+      ]
+    },
+    {
+      "tag": "SD",
+      "patterns": [
+        "Can you tell me about SD?",
+        "Explain about SD?",
+        "Is SD good?",
+        "Is SD good for beginners?",
+        "SD"
+      ],
+      "responses": [
+        "SD (Super Deformed) is a line of Gunpla kits known for their exaggerated, cute, and compact proportions. These models have larger heads and smaller bodies, giving them a unique and playful appearance. They are usually simpler to build and more affordable than other lines.",
+        "SD kits are excellent for beginners due to their simplicity, fewer parts, and ease of assembly. They are a great way to get started with Gunpla building.",
+        "Despite their simplicity, SD kits can still be detailed and come with various accessories and stickers. They are a fun and quick build for both new and experienced builders."
+      ]
+    },
+    {
+      "tag": "MGSD",
+      "patterns": [
+        "Can you tell me about MGSD?",
+        "Explain about MGSD?",
+        "Is MGSD good?",
+        "Is MGSD good for beginners?",
+        "MGSD"
+      ],
+      "responses": [
+        "MGSD (Master Grade Super Deformed) is a line of Gunpla kits that combines the cute, chibi proportions of SD with the complexity and detail of Master Grade. These models offer a unique building experience with intricate parts and high articulation.",
+        "MGSD kits are more complex than standard SD kits and may not be suitable for absolute beginners. However, they are a great choice for builders with some experience who want a detailed and articulated model in a compact, SD style.",
+        "MGSD models include advanced features such as inner frames, detailed parts, and a wide range of articulation. They offer a blend of fun proportions and high build quality, appealing to both SD and MG enthusiasts."
+      ]
+    },
+    {
+      "tag": "RecommendedGunpla",
+      "patterns": [
+        "Can you recommend a Gunpla?",
+        "What Gunpla do you recommend?",
+        "Which Gunpla should I start with?",
+        "Best Gunpla for beginners?",
+        "Recommended Gunpla",
+        "Gunpla Reccomendation"
+      ],
+      "responses": [
+        "For beginners, I recommend starting with High Grade (HG) kits. They are 1/144 scale models that offer a good balance of detail and ease of assembly. Some popular beginner-friendly HG kits include the RX-78-2 Gundam and the HGUC Zaku II.",
+        "If you're looking for more detail and complexity, Master Grade (MG) kits are a great choice. They are 1/100 scale and offer detailed inner frames and a high level of articulation. The MG RX-78-2 Gundam Ver. 3.0 and MG Gundam Exia are excellent picks.",
+        "For a unique and fun build, consider the SD (Super Deformed) line. These kits are simple and quick to build, making them great for beginners and those looking for a quick project. The SDCS RX-78-2 Gundam and SDCS Cross Silhouette Zaku II are good options.",
+        "If you're ready for a more advanced challenge, Perfect Grade (PG) kits offer the highest level of detail and complexity in 1/60 scale. The PG RX-78-2 Gundam and PG Unicorn Gundam are highly recommended for experienced builders."
+      ]
+    },
+    {
+      "tag": "MostPopularKits",
+      "patterns": [
+        "What are the most popular Gunpla kits?",
+        "Can you tell me the most popular Gunpla kits?",
+        "Most popular Gunpla kits?",
+        "Best-selling Gunpla kits?",
+        "Popular Gunpla models?",
+        "Popular gundam kit"
+      ],
+      "responses": [
+        "Some of the most popular Gunpla kits across various lines include:",
+        "1. **HG RX-78-2 Gundam** - The original Gundam and a fan favorite. It's a great starter kit with iconic design and easy assembly.",
+        "2. **MG Gundam Exia** - Known for its sleek design and advanced articulation, this Master Grade kit is a top pick among builders.",
+        "3. **RG Zaku II** - A Real Grade kit that offers detailed parts and realistic articulation, making it a popular choice for those looking for a high-quality build in a smaller scale.",
+        "4. **PG Unicorn Gundam** - This Perfect Grade kit is highly sought after for its impressive size, detail, and LED lighting features.",
+        "5. **HG Barbatos** - From the Iron-Blooded Orphans series, this High Grade kit is known for its unique design and poseability.",
+        "6. **SDCS RX-78-2 Gundam** - Combining the charm of Super Deformed with the Cross Silhouette frame, this kit is popular for its cute appearance and ease of customization."
+      ]
+    },
+    {
+      "tag": "GunplaUniversalCentury",
+      "patterns": [
+        "Can you tell me about Gunpla Universal Century?",
+        "Explain about Gunpla Universal Century?",
+        "What is Gunpla Universal Century?",
+        "Universal Century Gunpla",
+        "Gunpla UC",
+        "universal century gundam",
+        "uc gundam"
+      ],
+      "responses": [
+        "The Universal Century (UC) is the original and primary timeline in the Gundam franchise. It includes many of the most iconic and influential series, starting with 'Mobile Suit Gundam' in 1979. The timeline is known for its rich history and complex political conflicts.",
+        "Gunpla from the Universal Century include models from various series such as 'Mobile Suit Gundam,' 'Zeta Gundam,' 'Gundam ZZ,' 'Char's Counterattack,' and 'Gundam Unicorn.' These kits often feature the classic designs that defined the franchise.",
+        "Popular Universal Century Gunpla kits include the HGUC RX-78-2 Gundam, MG Sazabi Ver. Ka, and RG Nu Gundam. These models are celebrated for their detailed designs and engineering.",
+        "Universal Century kits are available in various grades, including High Grade (HG), Master Grade (MG), Real Grade (RG), and Perfect Grade (PG), catering to different skill levels and preferences."
+      ]
+    },
+    {
+      "tag": "Gundam 00",
+      "patterns": [
+        "Can you tell me about Gundam 00?",
+        "Explain about Gundam 00?",
+        "What is Gundam 00?",
+        "Gundam 00 series",
+        "Gundam 00"
+      ],
+      "responses": [
+        "Gundam 00, also known as Mobile Suit Gundam 00, is a Japanese anime series set in the Anno Domini timeline. It follows the story of Celestial Being, a paramilitary organization using advanced mobile suits called Gundams to eradicate war and conflict through armed intervention.",
+        "The series features innovative mobile suits with unique capabilities, such as the GN-001 Gundam Exia, designed for close combat, and the GN-002 Gundam Dynames, specialized in long-range sniping.",
+        "Gundam 00 is notable for its deep storyline, complex characters, and themes of political intrigue and the morality of using force for peace. It is divided into two seasons, each consisting of 25 episodes, and also includes a sequel film titled 'Mobile Suit Gundam 00: A Wakening of the Trailblazer.'",
+        "Popular Gunpla kits from the Gundam 00 series include the MG Gundam Exia, MG Gundam Dynames, and the HG 00 Raiser. These kits are known for their detailed designs and articulation."
+      ]
+    },
+    {
+      "tag": "Gundam Wing",
+      "patterns": [
+          "Can you tell me about Gundam Wing?",
+          "Explain about Gundam Wing?",
+          "What is Gundam Wing?",
+          "Gundam Wing series",
+          "Gundam Wing"
+      ],
+      "responses": [
+          "Gundam Wing, also known as Mobile Suit Gundam Wing, is a Japanese anime series set in the After Colony timeline. The story revolves around five young pilots sent to Earth in advanced mobile suits called Gundams to fight against the oppressive Earth Sphere Alliance.",
+          "The series is known for its iconic mobile suits such as the XXXG-01W Wing Gundam, XXXG-01D Gundam Deathscythe, and XXXG-00W0 Wing Gundam Zero.",
+          "Gundam Wing is praised for its engaging story, memorable characters, and intense battles. It has been highly influential and popular among Gundam fans worldwide.",
+          "Popular Gunpla kits from the Gundam Wing series include the MG Wing Gundam, MG Gundam Deathscythe Hell, and the HGAC Wing Gundam Zero. These kits are known for their detailed designs and articulation."
+      ]
+  },
+  {
+      "tag": "Iron-Blooded Orphans",
+      "patterns": [
+          "Can you tell me about Iron-Blooded Orphans?",
+          "Explain about Iron-Blooded Orphans?",
+          "What is Iron-Blooded Orphans?",
+          "Iron-Blooded Orphans series",
+          "Iron-Blooded Orphans"
+      ],
+      "responses": [
+          "Iron-Blooded Orphans, also known as Mobile Suit Gundam: Iron-Blooded Orphans, is a Japanese anime series set in the Post Disaster timeline. It follows a group of child soldiers who rebel against their oppressors and form the mercenary group Tekkadan.",
+          "The series features unique mobile suits powered by Ahab reactors, such as the ASW-G-08 Gundam Barbatos, ASW-G-11 Gundam Gusion, and ASW-G-66 Gundam Kimaris.",
+          "Iron-Blooded Orphans is known for its gritty and mature themes, focusing on the struggles of war, child soldiers, and the quest for freedom.",
+          "Popular Gunpla kits from Iron-Blooded Orphans include the HG Gundam Barbatos, HG Gundam Gusion Rebake, and the MG Gundam Barbatos. These kits are praised for their unique designs and poseability."
+      ]
+  },
+  {
+      "tag": "The Witch from Mercury",
+      "patterns": [
+          "Can you tell me about The Witch from Mercury?",
+          "Explain about The Witch from Mercury?",
+          "What is The Witch from Mercury?",
+          "The Witch from Mercury series",
+          "The Witch from Mercury"
+      ],
+      "responses": [
+          "The Witch from Mercury is an upcoming series in the Gundam franchise, set to introduce a new storyline and characters. As the title suggests, it may feature a protagonist or significant elements related to Mercury.",
+          "Details about the mobile suits and plot are still being released, but it promises to bring fresh designs and innovative technology to the Gundam universe.",
+          "Fans are eagerly anticipating the new Gunpla kits from The Witch from Mercury series, expecting them to include unique features and designs that stand out from previous series.",
+          "Stay tuned for more information and the release of Gunpla kits from The Witch from Mercury as the series progresses."
+      ]
+  },
+  {
+      "tag": "God Gundam",
+      "patterns": [
+          "Can you tell me about God Gundam?",
+          "Explain about God Gundam?",
+          "What is God Gundam?",
+          "God Gundam series",
+          "God Gundam"
+      ],
+      "responses": [
+          "God Gundam, also known as G Gundam in some regions, is the main mobile suit from the anime series 'Mobile Fighter G Gundam.' Piloted by Domon Kasshu, it represents Neo Japan in the Gundam Fight tournament.",
+          "God Gundam is known for its martial arts-inspired combat style and powerful techniques such as the 'God Finger' and 'Sekiha Tenkyoken.' It is designed for close-quarters combat and is incredibly agile and strong.",
+          "The series 'Mobile Fighter G Gundam' is set in the Future Century timeline and is unique within the Gundam franchise for its focus on hand-to-hand combat and tournament-style battles.",
+          "Popular Gunpla kits of God Gundam include the MG God Gundam, RG God Gundam, and the HGFC God Gundam. These kits are known for their articulation and ability to recreate dynamic poses from the anime."
+      ]
+  },
+  {
+      "tag": "Build Series",
+      "patterns": [
+          "Can you tell me about the Build Series?",
+          "Explain about the Build Series?",
+          "What is the Build Series?",
+          "Gundam Build Series",
+          "Build Fighters",
+          "Build Divers",
+          "Build Series"
+      ],
+      "responses": [
+          "The Build Series is a collection of Gundam anime series that focus on Gunpla battles. In these series, characters build and customize their own Gunpla models to compete in virtual or real battles.",
+          "Key series in the Build Series include 'Gundam Build Fighters,' 'Gundam Build Fighters Try,' 'Gundam Build Divers,' and 'Gundam Build Divers Re:RISE.' Each series introduces unique characters and Gunpla models.",
+          "The Build Series is known for its creativity, showcasing a wide variety of custom Gunpla designs and innovative battle scenarios. It encourages fans to engage with the hobby of Gunpla building and customization.",
+          "Popular Gunpla kits from the Build Series include the HG Build Strike Gundam, HG Gundam 00 Sky, and the HGBD:R Gundam Justice Knight. These kits are celebrated for their customization options and unique designs."
+      ]
+  }
+  ]
+}
