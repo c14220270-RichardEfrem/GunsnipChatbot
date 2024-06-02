@@ -23,18 +23,11 @@ model = NeuralNet(input_size, hidden_size, output_size).to(device)
 model.load_state_dict(model_state)
 model.eval()
 
-bot_name = "Gunsnip CS AI"
-print("Let's Chat! Type 'quit' to exit")
-while True:
-    sentence = input('You: ')
-    if sentence == "quit":
-        print(f"{bot_name}: Bye Bye")
-        break
-
+def get_response(sentence):
     sentence = tokenize(sentence)
     x = bag_of_words(sentence, all_words)
     x = x.reshape(1, x.shape[0])
-    x = torch.from_numpy(x)
+    x = torch.from_numpy(x).to(device)
 
     output = model(x)
     _, predicted = torch.max(output, dim=1)
@@ -46,6 +39,36 @@ while True:
     if prob.item() > 0.78:
         for intent in intents["intents"]:
             if tag == intent["tag"]:
-                print(f"{bot_name}: {random.choice(intent['responses'])}")
+                return random.choice(intent['responses'])
     else:
-        print(f"{bot_name}: I do not Understand...")
+        return "I do not Understand..."
+
+def get_response_json(sentence):
+    response = get_response(sentence)
+    return {"answer": response}
+# bot_name = "Gunsnip CS AI"
+# print("Let's Chat! Type 'quit' to exit")
+# while True:
+#     sentence = input('You: ')
+#     if sentence == "quit":
+#         print(f"{bot_name}: Bye Bye")
+#         break
+
+#     sentence = tokenize(sentence)
+#     x = bag_of_words(sentence, all_words)
+#     x = x.reshape(1, x.shape[0])
+#     x = torch.from_numpy(x)
+
+#     output = model(x)
+#     _, predicted = torch.max(output, dim=1)
+#     tag = tags[predicted.item()]
+
+#     probs = torch.softmax(output, dim=1)
+#     prob = probs[0][predicted.item()]
+
+#     if prob.item() > 0.78:
+#         for intent in intents["intents"]:
+#             if tag == intent["tag"]:
+#                 print(f"{bot_name}: {random.choice(intent['responses'])}")
+#     else:
+#         print(f"{bot_name}: I do not Understand...")

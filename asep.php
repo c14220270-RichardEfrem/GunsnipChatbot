@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Asep AI</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="script.js" defer></script>
     <link rel="shortcut icon" type="image/x-icon" href="Asset/asep.jpg" />
     <link rel="stylesheet" href="asep.css">
@@ -14,16 +15,16 @@
     <div class="container">
         <div class="chatbot">
             <header>
-                <h2>Asep.AI</h2>
+                <h2>Gunsnip Chatbot</h2>
             </header>
             <ul class="chatbox">
                 <li class="chat incoming">
-                    <img src="Asset/asep.jpg" alt="">
-                    <p>Halo! <br> Apa yang bisa saya bantu?</p>
+                    <img src="asep.jpg" alt="">
+                    <p>Hello! <br> How can i help you?</p>
                 </li>
             </ul>
             <div class="chat-input">
-                <textarea name="" id="" placeholder="Apa yang anda ingin tau..." required></textarea>
+                <textarea name="" id="" placeholder="Ask me some question..." required></textarea>
                 <span id="send-btn" class="material-symbols-outlined">send</span>
             </div>
         </div>
