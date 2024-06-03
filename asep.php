@@ -19,7 +19,7 @@
             </header>
             <ul class="chatbox">
                 <li class="chat incoming">
-                    <img src="asep.jpg" alt="">
+                    <img src="gunsnip_chat.jpg" alt="">
                     <p>Hello! <br> How can i help you?</p>
                 </li>
             </ul>
