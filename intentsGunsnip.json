@@ -84,7 +84,8 @@
         "i'm getting an error",
         "the gundam cannot be opened",
         "account error",
-        "getting problem with logging in"
+        "getting problem with logging in",
+        "error"
       ],
       "responses": [
         "Please Contact Our Customer Service At <Email> for further Help"
