@@ -46,9 +46,9 @@ X_train = np.array(X_train)
 y_train = np.array(y_train)
 
 # Define hyperparameters
-num_epochs = 1000
+num_epochs = 1200
 batch_size = 8
-learning_rate = 0.0005
+learning_rate = 0.0001
 input_size = len(X_train[0])
 hidden_size = 8
 output_size = len(tags)
@@ -97,7 +97,7 @@ for epoch in range(num_epochs):
         optimizer.step()
         
     if (epoch+1) % 100 == 0:
-        print (f'Epoch [{epoch+1}/{num_epochs}], Loss: {loss.item():.4f}')
+        print (f'Epoch [{epoch+1}/{num_epochs}], Loss: {loss.item():.7f}')
 
 # Print final loss
 print(f'Final loss: {loss.item():.4f}')

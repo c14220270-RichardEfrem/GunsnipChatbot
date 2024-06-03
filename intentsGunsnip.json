@@ -73,7 +73,8 @@
       ],
       "responses": [
         "There are a lot of gundam series Available to choose or probably to watch, for example Gundam Unicorn, Iron Blooded Orphans, Gundam Seed, and many more. To find out more you could check it here <link>",
-        "Gundam have a lot of series variety like Gundam Seed, Gundam Wing, Gundam 00, and many more. To find more, you could check here <link>"
+        "Gundam have a lot of series variety like Gundam Seed, Gundam Wing, Gundam 00, and many more. To find more, you could check here <link>",
+        "There are a lot of gundam series, but the main series and the most popular is The Universal century (UC). Other side universe or series that are also popular are Freedom, Wing Iron Blooded Orphan and many more."
       ]
     },
     {
@@ -84,11 +85,23 @@
         "i'm getting an error",
         "the gundam cannot be opened",
         "account error",
-        "getting problem with logging in",
-        "error"
+        "getting problem with logging in"
       ],
       "responses": [
         "Please Contact Our Customer Service At <Email> for further Help"
+      ]
+    },
+    {
+      "tag": "popular",
+      "patterns": [
+        "what is the most populer gundam right now",
+        "what is the most favorites gundam",
+        "favorites",
+        "popular"
+      ],
+      "responses": [
+        "There are a lot of popular gundam right now, you could check our homepage to find the most Popular gundam on our website currently",
+        "Check our homepage to find out the most popular gundam right now"
       ]
     },
     {
@@ -101,26 +114,11 @@
         "anime"
       ],
       "responses": [
-        "There are a lot of gundam anime, some reccomendation would be Mobile Suit Gundam Unicorn, Mobile Suit Gundam 00, and Mobile Suit Gundam The Witch From Mercury"
+        "There are a lot of gundam anime, some recomendation would be Mobile Suit Gundam Unicorn, Mobile Suit Gundam 00, and Mobile Suit Gundam The Witch From Mercury"
       ]
     },
     {
-      "tag": "gundam",
-      "patterns": [
-        "what is a gundam",
-        "what gundam",
-        "gundam info",
-        "gundam information",
-        "gundam",
-        "how gundam",
-        "give me information about gundam"
-      ],
-      "responses": [
-        "Gundam is a Japanese military science fiction media franchise. Created by Yoshiyuki Tomino and Sunrise (now Bandai Namco Filmworks), the franchise features giant robots, or mecha, with the name Gundam. The Company that owns the franchise decided to release plastic model kit for this Gundam called Gunpla(Gundam Plastic Model) and have been one of the best model kit to date"
-      ]
-    },
-    {
-      "tag": "HighGrade",
+      "tag": "High Grade",
       "patterns": [
         "Can You tell me about High grade?",
         "Explain about High Grade?",
@@ -130,13 +128,13 @@
       ],
       "responses": [
         "High grade is the most common grade in gunplay for more information click here <link>", 
-		    "IF you want to start a gunplay hobby, you should start with High grade line. It is pretty simple to assemble and it has a right amount of detail for it's price point.", 
-		    "High grade is the most beginner friendly kit for a new comer. it is easy to assemble, not much problem to fix and the final product is pretty anime accurate.",
-		    "High grade is the perfect starting point for a beginner. it has less part and the final product is great for its price point."
+        "IF you want to start a gunplay hobby, you should start with High grade line. It is pretty simple to assemble and it has a right amount of detail for it's price point.", 
+        "High grade is the most beginner friendly kit for a new comer. it is easy to assemble, not much problem to fix and the final product is pretty anime accurate.",
+        "High grade is the perfect starting point for a beginner. it has less part and the final product is great for its price point."
       ]
     },
     {
-      "tag": "RealGrade",
+      "tag": "Real Grade",
       "patterns": [
         "Can You tell me about Real grade?",
         "Explain about Real Grade?",
@@ -151,7 +149,7 @@
       ]
     },
     {
-      "tag": "MasterGrade",
+      "tag": "Master Grade",
       "patterns": [
         "Can you tell me about Master Grade?",
         "Explain about Master Grade?",
@@ -166,7 +164,7 @@
       ]
     },
     {
-      "tag": "FullMechanics",
+      "tag": "Full Mechanics",
       "patterns": [
         "Can you tell me about Full Mechanics?",
         "Explain about Full Mechanics?",
@@ -181,7 +179,7 @@
       ]
     },
     {
-      "tag": "PerfectGrade",
+      "tag": "Perfect Grade",
       "patterns": [
         "Can you tell me about Perfect Grade?",
         "Explain about Perfect Grade?",
@@ -226,14 +224,12 @@
       ]
     },
     {
-      "tag": "RecommendedGunpla",
+      "tag": "Recommended Gunpla",
       "patterns": [
         "Can you recommend a Gunpla?",
         "What Gunpla do you recommend?",
         "Which Gunpla should I start with?",
-        "Best Gunpla for beginners?",
-        "Recommended Gunpla",
-        "Gunpla Reccomendation"
+        "Recommended Gunpla"
       ],
       "responses": [
         "For beginners, I recommend starting with High Grade (HG) kits. They are 1/144 scale models that offer a good balance of detail and ease of assembly. Some popular beginner-friendly HG kits include the RX-78-2 Gundam and the HGUC Zaku II.",
@@ -243,14 +239,13 @@
       ]
     },
     {
-      "tag": "MostPopularKits",
+      "tag": "Most Popular Kits",
       "patterns": [
         "What are the most popular Gunpla kits?",
         "Can you tell me the most popular Gunpla kits?",
         "Most popular Gunpla kits?",
         "Best-selling Gunpla kits?",
-        "Popular Gunpla models?",
-        "Popular gundam kit"
+        "Popular Gunpla models?"
       ],
       "responses": [
         "Some of the most popular Gunpla kits across various lines include:",
@@ -263,15 +258,13 @@
       ]
     },
     {
-      "tag": "GunplaUniversalCentury",
+      "tag": "Gunpla Universal Century",
       "patterns": [
         "Can you tell me about Gunpla Universal Century?",
         "Explain about Gunpla Universal Century?",
         "What is Gunpla Universal Century?",
         "Universal Century Gunpla",
-        "Gunpla UC",
-        "universal century gundam",
-        "uc gundam"
+        "Gunpla UC"
       ],
       "responses": [
         "The Universal Century (UC) is the original and primary timeline in the Gundam franchise. It includes many of the most iconic and influential series, starting with 'Mobile Suit Gundam' in 1979. The timeline is known for its rich history and complex political conflicts.",
@@ -299,84 +292,1199 @@
     {
       "tag": "Gundam Wing",
       "patterns": [
-          "Can you tell me about Gundam Wing?",
-          "Explain about Gundam Wing?",
-          "What is Gundam Wing?",
-          "Gundam Wing series",
-          "Gundam Wing"
+        "Can you tell me about Gundam Wing?",
+        "Explain about Gundam Wing?",
+        "What is Gundam Wing?",
+        "Gundam Wing series",
+        "Gundam Wing"
       ],
       "responses": [
-          "Gundam Wing, also known as Mobile Suit Gundam Wing, is a Japanese anime series set in the After Colony timeline. The story revolves around five young pilots sent to Earth in advanced mobile suits called Gundams to fight against the oppressive Earth Sphere Alliance.",
-          "The series is known for its iconic mobile suits such as the XXXG-01W Wing Gundam, XXXG-01D Gundam Deathscythe, and XXXG-00W0 Wing Gundam Zero.",
-          "Gundam Wing is praised for its engaging story, memorable characters, and intense battles. It has been highly influential and popular among Gundam fans worldwide.",
-          "Popular Gunpla kits from the Gundam Wing series include the MG Wing Gundam, MG Gundam Deathscythe Hell, and the HGAC Wing Gundam Zero. These kits are known for their detailed designs and articulation."
+        "Gundam Wing, also known as Mobile Suit Gundam Wing, is a Japanese anime series set in the After Colony timeline. The story revolves around five young pilots sent to Earth in advanced mobile suits called Gundams to fight against the oppressive Earth Sphere Alliance.",
+        "The series is known for its iconic mobile suits such as the XXXG-01W Wing Gundam, XXXG-01D Gundam Deathscythe, and XXXG-00W0 Wing Gundam Zero.",
+        "Gundam Wing is praised for its engaging story, memorable characters, and intense battles. It has been highly influential and popular among Gundam fans worldwide.",
+        "Popular Gunpla kits from the Gundam Wing series include the MG Wing Gundam, MG Gundam Deathscythe Hell, and the HGAC Wing Gundam Zero. These kits are known for their detailed designs and articulation."
       ]
-  },
-  {
-      "tag": "Iron Blooded Orphans",
+    },
+    {
+      "tag": "Iron-Blooded Orphans",
       "patterns": [
-          "Can you tell me about Iron Blooded Orphans?",
-          "Explain about Iron Blooded Orphans?",
-          "What is Iron-Blooded Orphans?",
-          "Iron Blooded Orphans series",
-          "Iron Blooded Orphans"
+        "Can you tell me about Iron-Blooded Orphans?",
+        "Explain about Iron-Blooded Orphans?",
+        "What is Iron-Blooded Orphans?",
+        "Iron-Blooded Orphans series",
+        "Iron-Blooded Orphans"
       ],
       "responses": [
-          "Iron-Blooded Orphans, also known as Mobile Suit Gundam: Iron-Blooded Orphans, is a Japanese anime series set in the Post Disaster timeline. It follows a group of child soldiers who rebel against their oppressors and form the mercenary group Tekkadan.",
-          "The series features unique mobile suits powered by Ahab reactors, such as the ASW-G-08 Gundam Barbatos, ASW-G-11 Gundam Gusion, and ASW-G-66 Gundam Kimaris.",
-          "Iron-Blooded Orphans is known for its gritty and mature themes, focusing on the struggles of war, child soldiers, and the quest for freedom.",
-          "Popular Gunpla kits from Iron-Blooded Orphans include the HG Gundam Barbatos, HG Gundam Gusion Rebake, and the MG Gundam Barbatos. These kits are praised for their unique designs and poseability."
+        "Iron-Blooded Orphans, also known as Mobile Suit Gundam: Iron-Blooded Orphans, is a Japanese anime series set in the Post Disaster timeline. It follows a group of child soldiers who rebel against their oppressors and form the mercenary group Tekkadan.",
+        "The series features unique mobile suits powered by Ahab reactors, such as the ASW-G-08 Gundam Barbatos, ASW-G-11 Gundam Gusion, and ASW-G-66 Gundam Kimaris.",
+        "Iron-Blooded Orphans is known for its gritty and mature themes, focusing on the struggles of war, child soldiers, and the quest for freedom.",
+        "Popular Gunpla kits from Iron-Blooded Orphans include the HG Gundam Barbatos, HG Gundam Gusion Rebake, and the MG Gundam Barbatos. These kits are praised for their unique designs and poseability."
       ]
-  },
-  {
+    },
+    {
       "tag": "The Witch from Mercury",
       "patterns": [
-          "Can you tell me about The Witch from Mercury?",
-          "Explain about The Witch from Mercury?",
-          "What is The Witch from Mercury?",
-          "The Witch from Mercury series",
-          "The Witch from Mercury"
+        "Can you tell me about The Witch from Mercury?",
+        "Explain about The Witch from Mercury?",
+        "What is The Witch from Mercury?",
+        "The Witch from Mercury series",
+        "The Witch from Mercury"
       ],
       "responses": [
-          "The Witch from Mercury is an upcoming series in the Gundam franchise, set to introduce a new storyline and characters. As the title suggests, it may feature a protagonist or significant elements related to Mercury.",
-          "Details about the mobile suits and plot are still being released for Gundam the witch from mercury, but it promises to bring fresh designs and innovative technology to the Gundam universe.",
-          "Fans are eagerly anticipating the new Gunpla kits from The Witch from Mercury series, expecting them to include unique features and designs that stand out from previous series.",
-          "Stay tuned for more information and the release of Gunpla kits from The Witch from Mercury as the series progresses."
+        "The Witch from Mercury is an upcoming series in the Gundam franchise, set to introduce a new storyline and characters. As the title suggests, it may feature a protagonist or significant elements related to Mercury.",
+        "Details about the mobile suits and plot are still being released, but it promises to bring fresh designs and innovative technology to the Gundam universe.",
+        "Fans are eagerly anticipating the new Gunpla kits from The Witch from Mercury series, expecting them to include unique features and designs that stand out from previous series.",
+        "Stay tuned for more information and the release of Gunpla kits from The Witch from Mercury as the series progresses."
       ]
-  },
-  {
+    },
+    {
       "tag": "God Gundam",
       "patterns": [
-          "Can you tell me about God Gundam?",
-          "Explain about God Gundam?",
-          "What is God Gundam?",
-          "God Gundam series",
-          "God Gundam"
+        "Can you tell me about God Gundam?",
+        "Explain about God Gundam?",
+        "What is God Gundam?",
+        "God Gundam series",
+        "God Gundam"
       ],
       "responses": [
-          "God Gundam, also known as G Gundam in some regions, is the main mobile suit from the anime series 'Mobile Fighter G Gundam.' Piloted by Domon Kasshu, it represents Neo Japan in the Gundam Fight tournament.",
-          "God Gundam is known for its martial arts-inspired combat style and powerful techniques such as the 'God Finger' and 'Sekiha Tenkyoken.' It is designed for close-quarters combat and is incredibly agile and strong.",
-          "The series 'Mobile Fighter G Gundam' is set in the Future Century timeline and is unique within the Gundam franchise for its focus on hand-to-hand combat and tournament-style battles.",
-          "Popular Gunpla kits of God Gundam include the MG God Gundam, RG God Gundam, and the HGFC God Gundam. These kits are known for their articulation and ability to recreate dynamic poses from the anime."
+        "God Gundam, also known as G Gundam in some regions, is the main mobile suit from the anime series 'Mobile Fighter G Gundam.' Piloted by Domon Kasshu, it represents Neo Japan in the Gundam Fight tournament.",
+        "God Gundam is known for its martial arts-inspired combat style and powerful techniques such as the 'God Finger' and 'Sekiha Tenkyoken.' It is designed for close-quarters combat and is incredibly agile and strong.",
+        "The series 'Mobile Fighter G Gundam' is set in the Future Century timeline and is unique within the Gundam franchise for its focus on hand-to-hand combat and tournament-style battles.",
+        "Popular Gunpla kits of God Gundam include the MG God Gundam, RG God Gundam, and the HGFC God Gundam. These kits are known for their articulation and ability to recreate dynamic poses from the anime."
       ]
-  },
-  {
+    },
+    {
       "tag": "Build Series",
       "patterns": [
-          "Can you tell me about the Build Series?",
-          "Explain about the Build Series?",
-          "What is the Build Series?",
-          "Gundam Build Series",
-          "Build Fighters",
-          "Build Divers",
-          "Build Series"
+        "Can you tell me about the Build Series?",
+        "Explain about the Build Series?",
+        "What is the Build Series?",
+        "Gundam Build Series",
+        "Build Fighters",
+        "Build Divers",
+        "Build Series"
       ],
       "responses": [
-          "The Build Series is a collection of Gundam anime series that focus on Gunpla battles. In these series, characters build and customize their own Gunpla models to compete in virtual or real battles.",
-          "Key series in the Build Series include 'Gundam Build Fighters,' 'Gundam Build Fighters Try,' 'Gundam Build Divers,' and 'Gundam Build Divers Re:RISE.' Each series introduces unique characters and Gunpla models.",
-          "The Build Series is known for its creativity, showcasing a wide variety of custom Gunpla designs and innovative battle scenarios. It encourages fans to engage with the hobby of Gunpla building and customization.",
-          "Popular Gunpla kits from the Build Series include the HG Build Strike Gundam, HG Gundam 00 Sky, and the HGBD:R Gundam Justice Knight. These kits are celebrated for their customization options and unique designs."
+        "The Build Series is a collection of Gundam anime series that focus on Gunpla battles. In these series, characters build and customize their own Gunpla models to compete in virtual or real battles.",
+        "Key series in the Build Series include 'Gundam Build Fighters,' 'Gundam Build Fighters Try,' 'Gundam Build Divers,' and 'Gundam Build Divers Re:RISE.' Each series introduces unique characters and Gunpla models.",
+        "The Build Series is known for its creativity, showcasing a wide variety of custom Gunpla designs and innovative battle scenarios. It encourages fans to engage with the hobby of Gunpla building and customization.",
+        "Popular Gunpla kits from the Build Series include the HG Build Strike Gundam, HG Gundam 00 Sky, and the HGBD:R Gundam Justice Knight. These kits are celebrated for their customization options and unique designs."
       ]
-  }
+    },
+    {
+      "tag": "Iron-Blooded Orphans",
+      "patterns": [
+        "Can you tell me about Iron-Blooded Orphans?",
+        "Explain about Iron-Blooded Orphans?",
+        "What is Iron-Blooded Orphans?",
+        "Gundam Iron-Blooded Orphans",
+        "Iron-Blooded Orphans series",
+        "IBO Gundam",
+        "IBO series"
+      ],
+      "responses": [
+        "The Gundam Iron-Blooded Orphans series is a popular entry in the Gundam franchise that focuses on the struggles of child soldiers. Set in a dystopian future, the story revolves around a group of young mercenaries who fight for their freedom and survival using powerful mobile suits known as Gundams.",
+        "Key elements of Iron-Blooded Orphans include its darker and more mature themes, a focus on complex character development, and intense, realistic battle scenes. The series explores themes of war, slavery, and the fight for independence.",
+        "The Gundam Iron-Blooded Orphans series is known for its gritty storytelling and moral ambiguity, distinguishing it from other Gundam series. It has been praised for its deep emotional impact and the way it tackles serious social issues through the lens of science fiction.",
+        "Notable mobile suits from the series include the Gundam Barbatos, Gundam Gusion, and Gundam Kimaris. These suits are celebrated for their unique designs and the way they evolve throughout the series as the characters modify and upgrade them."
+      ]
+    },
+    {
+      "tag": "Master Grade Ver.Ka",
+      "patterns": [
+        "Can you tell me about Master Grade Ver.Ka?",
+        "Explain about Master Grade Ver.Ka?",
+        "What is Master Grade Ver.Ka?",
+        "MG Ver.Ka",
+        "Ver.Ka Gundam",
+        "Master Grade Katoki",
+        "MG Katoki"
+      ],
+      "responses": [
+        "Master Grade Ver.Ka, also known as MG Ver.Ka, refers to a special line of Master Grade Gundam model kits designed by Hajime Katoki. These kits are known for their high level of detail, unique design elements, and intricate decal work.",
+        "Key features of Master Grade Ver.Ka models include enhanced articulation, detailed inner frames, and extensive marking decals. They often incorporate design elements and proportions that are distinct from other Master Grade kits.",
+        "Some popular MG Ver.Ka models include the RX-78-2 Gundam Ver.Ka, Wing Gundam Ver.Ka, and the Sinanju Ver.Ka. These kits are highly regarded by Gunpla enthusiasts for their engineering and aesthetics.",
+        "The Master Grade Ver.Ka series is celebrated for pushing the boundaries of model kit design, offering builders a challenging and rewarding experience. They often come with special features such as transformation mechanisms and unique weapon systems."
+      ]
+    },
+    {
+      "tag": "Beginner to Gunpla",
+      "patterns": [
+        "How do I start with Gunpla?",
+        "What do I need to know as a beginner in Gunpla?",
+        "Can you explain Gunpla to a beginner?",
+        "Tips for starting Gunpla?",
+        "Beginner Gunpla guide",
+        "New to Gunpla",
+        "Gunpla for beginners"
+      ],
+      "responses": [
+        "Starting with Gunpla, or Gundam plastic models, can be an exciting hobby! Beginners should start with High Grade (HG) kits as they are simpler to build and more affordable. These kits provide a good balance of detail and ease of assembly.",
+        "To begin building Gunpla, you'll need a few basic tools: a pair of nippers for cutting parts from the runners, a hobby knife for trimming excess plastic, and a set of tweezers for applying decals. Optional tools include sandpaper or files for smoothing out rough edges and plastic cement for extra durability.",
+        "When building your first Gunpla, take your time and follow the instructions carefully. It's a good idea to start with a simple kit, such as an HG model, to get familiar with the process. As you gain experience, you can try more complex kits like Master Grade (MG) or Real Grade (RG).",
+        "Gunpla kits come in various grades and scales. High Grade (HG) is suitable for beginners, while Real Grade (RG), Master Grade (MG), and Perfect Grade (PG) offer more complexity and detail for advanced builders. Choose a grade that matches your skill level.",
+        "The Gunpla community is friendly and supportive, with many resources available online. Websites, forums, and social media groups can provide helpful tips, tutorials, and inspiration. Don't hesitate to reach out and share your progress with others."
+      ]
+    },
+    {
+      "tag": "Gunpla Decals",
+      "patterns": [
+        "Can you tell me about Gunpla decals?",
+        "Explain how to use decals on Gunpla?",
+        "What are Gunpla decals?",
+        "How do I apply decals to my Gunpla?",
+        "Gunpla decal tips",
+        "Different types of Gunpla decals",
+        "Using decals on Gunpla models"
+      ],
+      "responses": [
+        "Gunpla decals are stickers or transfers used to add detail and markings to your Gundam models. They enhance the appearance of your build and can range from simple logos to complex designs.",
+        "There are three main types of Gunpla decals: stickers, dry transfer decals, and water slide decals. Stickers are the easiest to apply, dry transfers require rubbing onto the model, and water slide decals offer the best finish but are more complex to apply.",
+        "To apply water slide decals, first cut out the decal you want to use. Soak it in water for about 10-20 seconds until it can slide off the backing paper. Position it on the model, and use a soft brush or a cotton swab to smooth it out and remove excess water.",
+        "Dry transfer decals require you to place the decal on the model, then rub the backing paper with a tool, like a stylus or a coin, to transfer the decal onto the surface. Be careful to keep the decal in place while rubbing to ensure accurate transfer.",
+        "For stickers, simply peel them off the sheet and place them onto the model. Use tweezers for better precision. Stickers are less durable than other types of decals, so consider applying a top coat to protect them.",
+        "Using decal solutions like Micro Set and Micro Sol can help decals conform to the model's surface better and adhere more securely. Micro Set is applied before the decal to improve adhesion, while Micro Sol softens the decal to help it conform to complex surfaces."
+      ]
+    },
+    {
+      "tag": "No Grade",
+      "patterns": [
+        "Can you tell me about No Grade Gunpla?",
+        "Explain about No Grade models?",
+        "What is No Grade in Gunpla?",
+        "NG Gundam kits",
+        "No Grade models",
+        "What are NG Gunpla?",
+        "Beginner No Grade Gunpla"
+      ],
+      "responses": [
+        "No Grade (NG) Gunpla kits refer to Gundam model kits that do not fall under the High Grade (HG), Master Grade (MG), Real Grade (RG), or Perfect Grade (PG) categories. They typically represent earlier model kits or those that are scaled but not graded.",
+        "No Grade kits are often simpler in design and assembly compared to other grades, making them suitable for beginners. They provide a good entry point into the world of Gunpla without the complexity and cost of higher-grade kits.",
+        "One of the key features of No Grade kits is that they usually come in 1/144 or 1/100 scale but lack the intricate detailing and advanced articulation found in HG, MG, RG, and PG kits. Despite this, they still offer a satisfying building experience.",
+        "No Grade kits often feature fewer parts and simpler construction, which can be beneficial for newcomers to the hobby or those looking for a quicker build. They are also more affordable, making them a great option for those on a budget.",
+        "While No Grade kits may not have the same level of detail as other grades, they can still be customized and detailed with additional painting, panel lining, and decals to enhance their appearance. They are a versatile option for both beginners and experienced builders.",
+        "Examples of popular No Grade kits include models from the 'Mobile Suit Gundam SEED' and 'Gundam 00' series. These kits provide a nostalgic build experience and are often appreciated for their simplicity and ease of assembly."
+      ]
+    },
+    {
+      "tag": "Upcoming Releases",
+      "patterns": [
+        "What are the upcoming Gunpla releases?",
+        "Can you tell me about the new Gunpla kits?",
+        "Explain the latest Gunpla releases.",
+        "Any news on upcoming Gundam model kits?",
+        "What's coming next in Gunpla?",
+        "Upcoming Gundam releases",
+        "New Gunpla kits"
+      ],
+      "responses": [
+        "Upcoming Gunpla releases vary depending on the announcements made by Bandai and other manufacturers. These releases can include new High Grade (HG), Master Grade (MG), Real Grade (RG), Perfect Grade (PG), and No Grade (NG) kits.",
+        "Some anticipated releases may include new kits from popular Gundam series such as 'Mobile Suit Gundam,' 'Gundam SEED,' 'Gundam 00,' and 'Gundam Iron-Blooded Orphans.' These kits may feature iconic mobile suits, new variations, or limited edition versions.",
+        "Bandai often announces new Gunpla releases through official channels, including social media, press releases, and dedicated events like Gunpla Expo. Fans can stay updated on upcoming releases by following official Gundam and Gunpla news sources.",
+        "In addition to model kits, upcoming releases may also include related accessories, tools, and merchandise for Gunpla builders and collectors. These can include display bases, LED units, decals, and paint sets to enhance your Gunpla building experience.",
+        "Keep an eye out for announcements from Bandai and other manufacturers to stay informed about the latest Gunpla releases. Many hobby shops and online retailers also offer pre-order options for upcoming kits, allowing fans to secure their purchases in advance."
+      ]
+    },
+    {
+      "tag": "Advanced Gunpla",
+      "patterns": [
+        "What are some advanced Gunpla techniques?",
+        "Can you tell me about advanced Gunpla building?",
+        "Explain advanced Gunpla customization.",
+        "Advanced Gunpla tips and tricks",
+        "How to take my Gunpla skills to the next level?",
+        "Advanced modeling techniques for Gunpla",
+        "Advanced Gunpla builds"
+      ],
+      "responses": [
+        "Advanced Gunpla techniques go beyond basic assembly and include advanced modeling, customization, and detailing. These techniques allow builders to create highly detailed and customized Gunpla models.",
+        "Some advanced Gunpla techniques include scribing panel lines, adding metal parts for detailing, custom painting using airbrushes, weathering to add realism, and scratch-building custom parts.",
+        "Scribing panel lines involves using specialized tools to carve additional panel lines into the plastic surface of Gunpla kits, enhancing their detail and realism. This technique requires precision and practice to master.",
+        "Custom painting with an airbrush allows for smooth, even coats of paint and intricate color blending. Advanced painters can achieve stunning effects such as gradients, shading, and metallic finishes.",
+        "Weathering techniques simulate wear and tear on Gunpla models, adding realism and depth to their appearance. Techniques include dry brushing, washes, chipping, and rust effects.",
+        "Scratch-building involves creating custom parts from scratch using plastic sheets, rods, or other materials. This allows builders to modify and customize their Gunpla beyond what is possible with out-of-the-box kits.",
+        "Advanced Gunpla builds often combine multiple techniques to create unique and highly detailed models. They require patience, skill, and creativity but offer a rewarding and satisfying building experience."
+      ]
+    },
+    {
+      "tag": "Scribing",
+      "patterns": [
+        "What is scribing in Gunpla?",
+        "Explain the technique of scribing on Gunpla.",
+        "Can you tell me about scribing panel lines?",
+        "How do I scribe panel lines on my Gunpla?",
+        "Scribing tips for Gunpla",
+        "Scribing tools for Gunpla",
+        "Advanced Gunpla scribing"
+      ],
+      "responses": [
+        "Scribing in Gunpla refers to the technique of adding additional panel lines or details to plastic model kits. It involves using specialized tools to carve or etch lines into the surface of the plastic, enhancing the kit's detail and realism.",
+        "Scribing panel lines allows modelers to customize their Gunpla by adding extra detail not present in the original kit. It's a common technique used to create custom designs, add depth to surfaces, or replicate intricate details seen in the anime or manga.",
+        "To scribe panel lines on your Gunpla, you'll need a scribing tool such as a hobby knife with a sharp blade or specialized scribing tools with different blade sizes. Start by marking the lines you want to scribe with a pencil or fine marker, then carefully carve along the lines using the scribing tool.",
+        "When scribing panel lines, it's important to use light pressure and make multiple passes to gradually deepen the lines. Take your time and work slowly to avoid slipping or damaging the plastic surface.",
+        "Scribing panel lines can be used to create custom designs, add panel separation, or enhance existing details. It's a versatile technique that allows modelers to personalize their Gunpla and take their builds to the next level.",
+        "Advanced Gunpla scribing involves more intricate designs and techniques such as adding rivets, vents, or other surface details. It requires precision, patience, and practice to master but can result in highly detailed and realistic models."
+      ]
+    },
+    {
+      "tag": "Metal Build",
+      "patterns": [
+        "What is Metal Build?",
+        "Explain Metal Build figures.",
+        "Can you tell me about Metal Build toys?",
+        "Metal Build Gundam",
+        "Metal Build figures",
+        "Metal Build releases",
+        "Metal Build series"
+      ],
+      "responses": [
+        "Metal Build is a line of high-quality action figures produced by Bandai's Tamashii Nations division. These figures are known for their exceptional detail, articulation, and die-cast metal parts, making them highly sought after by collectors.",
+        "Metal Build figures are primarily based on mecha designs from various Gundam series, including Mobile Suit Gundam, Gundam Wing, Gundam 00, and more. They often feature iconic mobile suits in stunningly accurate and highly poseable forms.",
+        "What sets Metal Build figures apart is their premium construction and attention to detail. They typically include a range of accessories, interchangeable parts, and special effects pieces to recreate dynamic action poses from the series.",
+        "Metal Build releases often include both new designs and updated versions of previously released figures. They are usually offered as limited editions and can be quite collectible due to their high quality and exclusivity.",
+        "Collectors of Metal Build figures appreciate the combination of intricate sculpting, advanced articulation, and premium materials that make these figures stand out in the world of action figures. They are prized additions to any Gundam collection."
+      ]
+    },
+    {
+      "tag": "Third-party Models",
+      "patterns": [
+        "What are third-party Gunpla models?",
+        "Explain third-party model kits.",
+        "Can you tell me about non-Bandai Gundam kits?",
+        "Third-party Gundam kits",
+        "Third-party releases",
+        "Non-Bandai Gunpla",
+        "3rd party model kits"
+      ],
+      "responses": [
+        "Third-party Gunpla models are Gundam model kits produced by companies other than Bandai, the official manufacturer of Gundam plastic model kits. These kits are often designed to complement Bandai's offerings and provide additional options for builders and collectors.",
+        "Third-party model kits may include unique designs not seen in official Gundam series, alternative versions of existing mobile suits, or upgrades and accessories for existing Bandai kits. They offer diversity and innovation in the Gunpla community.",
+        "Unlike Bandai's kits, third-party models may vary in quality, engineering, and compatibility with official Gunpla parts. Builders should research reviews and feedback before purchasing third-party kits to ensure they meet their expectations.",
+        "Some well-known manufacturers of third-party Gunpla kits include Kotobukiya, Dragon Momoko, Daban Model, and TT Hongli. These companies offer a wide range of kits, including high-quality replicas, custom designs, and add-on parts.",
+        "Third-party model kits can provide unique building experiences and expand the possibilities for customization in the Gunpla hobby. While they may require more effort to build and may have quality differences compared to official Bandai kits, they offer additional options for creative expression."
+      ]
+    },
+    {
+      "tag": "Zaku",
+      "patterns": [
+        "What is a Zaku?",
+        "Explain Zaku mobile suits.",
+        "Can you tell me about Zaku models?",
+        "Zaku Gundam",
+        "Zaku series",
+        "Zaku variations",
+        "Zaku types"
+      ],
+      "responses": [
+        "The Zaku is a type of mobile suit featured prominently in the Gundam series. It is one of the most iconic and recognizable designs in the franchise, known for its distinctive monoeye and rugged, militaristic appearance.",
+        "Zaku mobile suits are mass-produced units used by various factions in the Gundam universe, including the Principality of Zeon and other antagonist forces. They serve as the backbone of many armies and are versatile in ground and space combat.",
+        "Zaku models come in various variations and types, each suited for different roles and environments. Common variants include the Zaku II, Zaku II High Mobility Type, Zaku I Sniper Type, and Zaku Recon Type, among others.",
+        "The Zaku series has a rich history in the Gundam universe, with numerous pilots and units playing significant roles in various conflicts throughout the franchise. Notable Zaku pilots include Char Aznable, Ramba Ral, and Dozle Zabi.",
+        "Zaku mobile suits are often depicted as formidable adversaries to the Gundam protagonist units, showcasing their durability, firepower, and adaptability in combat. Despite their mass-produced nature, skilled pilots can make them formidable opponents.",
+        "The design of the Zaku has made it a favorite among Gundam fans, with many variations and models available as Gunpla kits for builders to assemble and customize. Building and painting Zaku models allow fans to recreate their favorite scenes and characters from the series."
+      ]
+    },
+    {
+      "tag": "Main Mobile Suit",
+      "patterns": [
+        "What is the main mobile suit in Gundam?",
+        "Explain the protagonist's mobile suit in Gundam.",
+        "Can you tell me about the main Gundam mobile suit?",
+        "Gundam protagonist's mobile suit",
+        "Main mobile suit in Gundam series",
+        "Which mobile suit is the main one in Gundam?",
+        "Protagonist's Gundam"
+      ],
+      "responses": [
+        "The main mobile suit in the Gundam series is often referred to simply as 'Gundam.' It serves as the iconic symbol of hope and resistance against oppression in the Gundam universe.",
+        "The Gundam mobile suit is typically piloted by the protagonist of each Gundam series. It is characterized by its distinctive white, blue, and red color scheme, as well as its advanced technology and weaponry.",
+        "Throughout the Gundam franchise, there have been many iterations and variations of the Gundam mobile suit, each tailored to the specific series and protagonist's personality and abilities.",
+        "The Gundam mobile suit is renowned for its exceptional performance in combat, often surpassing enemy units despite being outnumbered or outgunned. Its advanced technology and innovative design make it a formidable opponent on the battlefield.",
+        "The Gundam mobile suit symbolizes the ideals of justice, freedom, and the struggle against tyranny in the Gundam series. It is a beacon of hope for humanity and a powerful symbol of resistance against oppression and injustice."
+      ]
+    },
+    {
+      "tag": "Zeta Gundam",
+      "patterns": [
+        "What is the Zeta Gundam?",
+        "Explain the Zeta Gundam mobile suit.",
+        "Can you tell me about the Zeta Gundam?",
+        "Zeta Gundam series",
+        "Zeta Gundam variations",
+        "Zeta Gundam pilots",
+        "Z Gundam"
+      ],
+      "responses": [
+        "The Zeta Gundam is a highly advanced mobile suit featured in the Gundam series. It serves as the titular mobile suit in the anime 'Mobile Suit Zeta Gundam,' which is a sequel to the original 'Mobile Suit Gundam' series.",
+        "The Zeta Gundam is known for its sleek design, advanced technology, and transformative ability. It can switch between its mobile suit and Waverider modes, allowing it to adapt to various combat situations.",
+        "Piloted by protagonist Kamille Bidan, the Zeta Gundam is a symbol of hope and resistance against the oppressive Titans organization in the 'Mobile Suit Zeta Gundam' series. It plays a central role in the conflict between the Titans and the AEUG rebels.",
+        "The Zeta Gundam series explores themes of war, politics, and the consequences of conflict. It is praised for its complex characters, intense action sequences, and compelling storyline.",
+        "In addition to the original Zeta Gundam, there are several variations and upgrades of the mobile suit, including the Zeta Plus, Zeta Gundam 3A Type, and Zeta Gundam A1 Type. Each variant offers unique features and capabilities.",
+        "The Zeta Gundam is piloted by Kamille Bidan, a young civilian who becomes involved in the conflict between the Titans and the AEUG rebels. Kamille's journey as a pilot and his relationship with the Zeta Gundam are central to the plot of the series.",
+        "The Zeta Gundam, often referred to simply as the 'Z Gundam,' is one of the most iconic mobile suits in the Gundam franchise. Its striking design, powerful weaponry, and significance to the storyline make it a fan favorite among Gundam enthusiasts."
+      ]
+    },
+    {
+      "tag": "Advance of Zeta",
+      "patterns": [
+        "What is Advance of Zeta?",
+        "Explain the Advance of Zeta series.",
+        "Can you tell me about Advance of Zeta?",
+        "Advance of Zeta manga",
+        "Advance of Zeta mobile suits",
+        "Advance of Zeta story",
+        "AoZ series"
+      ],
+      "responses": [
+        "Advance of Zeta is a manga series set in the Universal Century timeline of the Gundam franchise. It serves as a prequel to the events of 'Mobile Suit Zeta Gundam' and explores the early stages of the Gryps Conflict.",
+        "The Advance of Zeta series delves into the development of various mobile suits and the conflicts between different factions leading up to the events of 'Mobile Suit Zeta Gundam.' It introduces new characters, mobile suits, and storylines within the Universal Century timeline.",
+        "One of the key aspects of Advance of Zeta is its focus on the technological advancements and political intrigue that shape the events of the Universal Century. It provides insight into the background of key elements seen in 'Mobile Suit Zeta Gundam.'",
+        "Advance of Zeta features a diverse array of mobile suits, including prototype versions of iconic designs, experimental units, and customized variations. These mobile suits play a significant role in the conflicts depicted in the series.",
+        "While Advance of Zeta is primarily known for its mecha action and technological developments, it also explores themes of war, morality, and the human cost of conflict. It offers a deeper understanding of the complex world of the Universal Century.",
+        "Fans of the Gundam franchise and the Universal Century timeline will find Advance of Zeta to be a valuable addition to the lore. Its detailed storytelling, engaging characters, and stunning mecha designs make it a compelling read for Gundam enthusiasts."
+      ]
+    },
+    {
+      "tag": "Unicorn Gundam",
+      "patterns": [
+        "What is the Unicorn Gundam?",
+        "Explain the Unicorn Gundam mobile suit.",
+        "Can you tell me about the Unicorn Gundam?",
+        "Unicorn Gundam series",
+        "Unicorn Gundam variations",
+        "Unicorn Gundam pilots",
+        "RX-0 Unicorn Gundam"
+      ],
+      "responses": [
+        "The Unicorn Gundam is a highly advanced mobile suit featured in the Gundam series. It is the titular mobile suit in the anime 'Mobile Suit Gundam Unicorn,' based on the light novel series of the same name by Harutoshi Fukui.",
+        "The Unicorn Gundam is known for its unique ability to transform between its Unicorn Mode and Destroy Mode, which grants it enhanced speed, firepower, and maneuverability. Its sleek design and psycho-frame technology set it apart from other mobile suits.",
+        "Piloted by protagonist Banagher Links, the Unicorn Gundam is a central figure in the conflict known as the Laplace Incident, which involves various factions vying for control of the powerful Laplace's Box and its contents.",
+        "The Unicorn Gundam series explores themes of identity, morality, and the consequences of war. It is praised for its stunning animation, intense action sequences, and intricate plot.",
+        "In addition to the original RX-0 Unicorn Gundam, there are several variations and upgrades of the mobile suit, including the Banshee and Phenex variants. Each variant offers unique features and capabilities.",
+        "The Unicorn Gundam is piloted by Banagher Links, a young civilian who becomes embroiled in the conflict surrounding Laplace's Box and the future of humanity. Banagher's journey as a pilot and his relationship with the Unicorn Gundam drive the narrative of the series.",
+        "The Unicorn Gundam, often referred to simply as the 'Unicorn,' is one of the most iconic mobile suits in the Gundam franchise. Its transformative abilities, sleek design, and significance to the storyline make it a fan favorite among Gundam enthusiasts."
+      ]
+    },
+    {
+      "tag": "Principality of Zeon",
+      "patterns": [
+        "What is the Principality of Zeon?",
+        "Explain the Zeon faction in Gundam.",
+        "Can you tell me about Zeon?",
+        "Zeon faction in Gundam",
+        "Principality of Zeon mobile suits",
+        "Zeon leaders",
+        "Zeon ideology"
+      ],
+      "responses": [
+        "The Principality of Zeon is a fictional nation and one of the primary factions in the Gundam series. It serves as the main antagonist faction in the original 'Mobile Suit Gundam' series and plays a significant role in subsequent entries in the franchise.",
+        "Zeon was originally a colony of the Earth Federation but declared independence following grievances over resource allocation and political representation. The Principality of Zeon sought to establish its own sovereign nation and govern its colonies independently.",
+        "The Zeon faction is known for its distinctive ideology, which emphasizes the independence and autonomy of space colonies, as well as the superiority of Spacenoids (space dwellers) over Earthnoids (Earth inhabitants). This ideology is often referred to as 'Zeonism.'",
+        "Zeon's military is equipped with a wide range of mobile suits, including iconic designs such as the Zaku and the Gelgoog. These mobile suits are known for their high performance, advanced technology, and distinctive aesthetics.",
+        "Throughout the Gundam series, Zeon is led by various charismatic leaders, including Zeon Zum Deikun, Degwin Sodo Zabi, Gihren Zabi, and Char Aznable. These leaders play pivotal roles in shaping the course of the conflict between Zeon and the Earth Federation.",
+        "The Principality of Zeon is depicted as a formidable military power with a strong sense of national identity and pride. Its conflicts with the Earth Federation highlight the complexities of war, politics, and ideology in the Gundam universe.",
+        "Zeon's legacy in the Gundam franchise extends beyond its role as an antagonist faction. It represents themes of independence, nationalism, and the consequences of militarism, making it a compelling element of the series."
+      ]
+    },
+    {
+      "tag": "Gundam Lore",
+      "patterns": [
+        "What is Gundam lore?",
+        "Explain the lore of Gundam.",
+        "Can you tell me about the Gundam universe?",
+        "Gundam series timeline",
+        "Gundam factions",
+        "Gundam technology",
+        "Gundam themes"
+      ],
+      "responses": [
+        "Gundam lore refers to the rich and extensive fictional universe depicted in the Gundam franchise. It encompasses various anime series, manga, novels, video games, and other media that explore the history, technology, characters, and conflicts within the Gundam universe.",
+        "The Gundam series is set in the distant future, primarily in the Universal Century timeline, where humanity has colonized space and established vast space colonies known as Sides. The series often explores themes of war, politics, technology, and the human condition.",
+        "The Gundam series features multiple factions, including the Earth Federation, the Principality of Zeon, the Titans, the Axis Zeon, and others. These factions engage in conflicts over resources, territory, and ideologies, shaping the course of history in the Gundam universe.",
+        "The timeline of the Gundam series spans centuries and encompasses various wars and conflicts, each with its own set of characters, mobile suits, and storylines. Key events include the One Year War, the Gryps Conflict, the Neo Zeon Wars, and the Laplace Conflict, among others.",
+        "Gundam lore is rich in technological innovation, featuring advanced mobile suits, space colonies, artificial intelligence, and other futuristic technologies. Mobile suits, in particular, play a central role in the series, serving as the primary weapons of war.",
+        "Themes explored in Gundam lore include the consequences of war, the impact of technology on society, the struggle for independence, and the quest for understanding and empathy in a world torn apart by conflict. These themes resonate with audiences and contribute to the enduring popularity of the Gundam franchise."
+      ]
+    },
+    {
+      "tag": "Gundam SEED Astray",
+      "patterns": [
+        "What is Gundam SEED Astray?",
+        "Explain the Gundam SEED Astray series.",
+        "Can you tell me about the Astray Gundam?",
+        "Gundam SEED Astray manga",
+        "Astray Gundam variations",
+        "Astray pilots",
+        "MBF-P02 Gundam Astray Red Frame"
+      ],
+      "responses": [
+        "Gundam SEED Astray is a spin-off manga series set in the Gundam SEED universe. It follows the adventures of various characters and their mobile suits, known as Astray units, in the aftermath of the Bloody Valentine War.",
+        "The Gundam SEED Astray series explores side stories and additional plotlines not covered in the main Gundam SEED anime series. It introduces new characters, factions, and mobile suit designs that expand the lore of the Gundam SEED universe.",
+        "One of the central mobile suits in the Gundam SEED Astray series is the MBF-P02 Gundam Astray Red Frame, piloted by protagonist Lowe Guele. This highly versatile and customizable mobile suit serves as the focal point of many story arcs in the series.",
+        "In addition to the Gundam Astray Red Frame, the Gundam SEED Astray series features a wide range of mobile suits, including the Blue Frame, Gold Frame, and Noir Striker, among others. Each unit has its own unique abilities and weaponry.",
+        "The pilots of the Astray mobile suits come from diverse backgrounds and affiliations, including mercenaries, civilians, and members of various factions. Their interactions and conflicts drive the narrative of the Gundam SEED Astray series.",
+        "Gundam SEED Astray has spawned multiple manga series, side stories, and model kits, further expanding the universe and offering fans a deeper dive into the world of Gundam SEED. It is beloved by fans for its compelling characters, intricate plotlines, and dynamic mecha battles."
+      ]
+    },
+    {
+      "tag": "Sengoku SD",
+      "patterns": [
+        "What is Sengoku SD?",
+        "Explain the Sengoku SD series.",
+        "Can you tell me about Sengoku SD Gundam?",
+        "Sengoku SD manga",
+        "Sengoku SD mobile suits",
+        "Sengoku SD characters",
+        "SD-297B Sengoku Astray Gundam"
+      ],
+      "responses": [
+        "Sengoku SD is a spin-off manga and model kit series that reimagines iconic Gundam mobile suits and characters in a feudal Japanese setting. It blends elements of traditional samurai culture with the futuristic mecha aesthetic of the Gundam franchise.",
+        "The Sengoku SD series follows the adventures of chibi-style SD Gundam characters as they battle for supremacy in a fantasy world inspired by Japan's Sengoku period. The series features a mix of action, humor, and historical references.",
+        "One of the central mobile suits in the Sengoku SD series is the SD-297B Sengoku Astray Gundam, a feudal Japan-themed version of the popular Astray Gundam. Piloted by a brave samurai warrior, this Gundam unit is renowned for its skill in battle.",
+        "In addition to the Sengoku Astray Gundam, the Sengoku SD series features a variety of SD-style mobile suits inspired by historical figures, samurai warriors, and mythical creatures. Each mobile suit is uniquely designed and armed with traditional and futuristic weaponry.",
+        "The characters in the Sengoku SD series are a colorful cast of samurai, ninja, warlords, and other historical figures reimagined as chibi-style SD Gundam characters. They embark on epic quests, engage in fierce battles, and forge alliances in their quest for glory.",
+        "Sengoku SD has gained popularity among Gundam fans for its charming art style, whimsical storytelling, and creative reinterpretation of classic Gundam elements. It offers a fresh and entertaining take on the Gundam universe, appealing to both Gundam enthusiasts and fans of Japanese history."
+      ]
+    },
+    {
+      "tag": "Mega Size",
+      "patterns": [
+        "What are Mega Size model kits?",
+        "Explain Mega Size Gunpla.",
+        "Can you tell me about Mega Size Gunpla?",
+        "Mega Size series",
+        "Mega Size models",
+        "Mega Size scale",
+        "Mega Size RX-78-2 Gundam"
+      ],
+      "responses": [
+        "Mega Size model kits are a line of large-scale Gunpla (Gundam plastic model kits) produced by Bandai. They are known for their impressive size, intricate details, and simplified assembly compared to smaller Gunpla grades.",
+        "The Mega Size series features iconic Gundam mobile suits, such as the RX-78-2 Gundam, in larger and more detailed forms. These kits offer an immersive building experience and are designed for both beginners and experienced modelers.",
+        "One of the standout features of Mega Size Gunpla is their massive size, with some kits standing over a foot tall when assembled. This scale allows for greater detail and realism, making them ideal for display and customization.",
+        "While Mega Size Gunpla maintain the same level of detail and articulation as their smaller counterparts, they are designed with simplified assembly in mind. This makes them accessible to builders of all skill levels, from beginners to seasoned veterans.",
+        "The Mega Size series includes a variety of Gundam mobile suits, each faithfully recreated in large-scale form. Popular kits in the series include the RX-78-2 Gundam, Char's Zaku II, and the Unicorn Gundam, among others.",
+        "Mega Size Gunpla offer a rewarding building experience and make impressive display pieces for any Gundam enthusiast. Their large size, attention to detail, and ease of assembly make them a popular choice among Gunpla collectors and hobbyists."
+      ]
+    },
+    {
+      "tag": "MG Extreme",
+      "patterns": [
+        "What are MG Extreme model kits?",
+        "Explain MG Extreme Gunpla.",
+        "Can you tell me about MG Extreme Gunpla?",
+        "MG Extreme series",
+        "MG Extreme models",
+        "MG Extreme scale",
+        "MG Extreme RX-78-2 Gundam"
+      ],
+      "responses": [
+        "MG Extreme model kits are a premium line of Master Grade (MG) Gunpla (Gundam plastic model kits) produced by Bandai. They are known for their exceptional detail, innovative engineering, and extensive customization options.",
+        "The MG Extreme series features iconic Gundam mobile suits, such as the RX-78-2 Gundam, in highly detailed and articulated forms. These kits offer an immersive building experience and are designed for experienced modelers seeking the ultimate Gunpla challenge.",
+        "One of the standout features of MG Extreme Gunpla is their extreme level of detail and articulation, allowing for dynamic and lifelike poses. These kits often include intricate inner frames, multiple accessories, and advanced gimmicks.",
+        "MG Extreme Gunpla are built to a 1/100 scale, providing a balance between size and detail. This scale allows for greater realism and accuracy in recreating the iconic Gundam mobile suits.",
+        "The MG Extreme series includes a variety of Gundam mobile suits from across the franchise, each meticulously recreated with an emphasis on realism and accuracy. Popular kits in the series include the RX-78-2 Gundam, Nu Gundam, and the Unicorn Gundam, among others.",
+        "MG Extreme Gunpla offer a challenging and rewarding building experience for advanced modelers. Their extreme level of detail, articulation, and customization options make them prized additions to any Gunpla collection."
+      ]
+    },
+    {
+      "tag": "HIRM Kit",
+      "patterns": [
+        "What are HIRM kits?",
+        "Explain High-Resolution Model kits.",
+        "Can you tell me about HIRM kits?",
+        "HIRM series",
+        "HIRM models",
+        "HIRM scale",
+        "HIRM RX-0 Unicorn Gundam"
+      ],
+      "responses": [
+        "HIRM kits, short for High-Resolution Model kits, are a premium line of Gundam model kits produced by Bandai. They are known for their exceptional level of detail, intricate inner frames, and high-quality materials.",
+        "The HIRM series features iconic Gundam mobile suits, such as the RX-0 Unicorn Gundam, in highly detailed and articulated forms. These kits offer an immersive building experience and are designed for experienced modelers seeking the highest level of realism.",
+        "One of the standout features of HIRM kits is their high-resolution detail, which includes realistic panel lines, intricate mechanical parts, and a wide range of accessories. These kits are designed to be display pieces, showcasing the beauty and complexity of Gundam mobile suits.",
+        "HIRM kits are built to a 1/100 scale, providing a balance between size and detail. This scale allows for greater realism and accuracy in recreating the iconic Gundam mobile suits.",
+        "The HIRM series includes a variety of Gundam mobile suits from across the franchise, each meticulously recreated with an emphasis on realism and accuracy. Popular kits in the series include the RX-0 Unicorn Gundam, the Wing Gundam Zero, and the Strike Freedom Gundam, among others.",
+        "HIRM kits offer an unparalleled building experience for advanced modelers. Their high-resolution detail, articulation, and premium materials make them prized additions to any Gundam collection."
+      ]
+    },
+    {
+      "tag": "Metal Structure",
+      "patterns": [
+        "What are Metal Structure model kits?",
+        "Explain Metal Structure Gundam.",
+        "Can you tell me about Metal Structure Gundam?",
+        "Metal Structure series",
+        "Metal Structure models",
+        "Metal Structure scale",
+        "Metal Structure RX-93 ν Gundam"
+      ],
+      "responses": [
+        "Metal Structure model kits are a premium line of Gundam model kits produced by Bandai. They are known for their exceptional level of detail, high-quality materials, and metal components.",
+        "The Metal Structure series features iconic Gundam mobile suits, such as the RX-93 ν Gundam, in highly detailed and articulated forms. These kits offer an immersive building experience and are designed for collectors seeking the highest level of realism.",
+        "One of the standout features of Metal Structure kits is their use of metal components, which add weight, durability, and realism to the finished model. These kits often include metal frames, joints, and armor parts, enhancing their authenticity.",
+        "Metal Structure kits are built to a 1/100 scale, providing a balance between size and detail. This scale allows for greater realism and accuracy in recreating the iconic Gundam mobile suits.",
+        "The Metal Structure series includes a variety of Gundam mobile suits from across the franchise, each meticulously recreated with an emphasis on realism and accuracy. Popular kits in the series include the RX-93 ν Gundam, the Sazabi, and the Wing Gundam Zero, among others.",
+        "Metal Structure kits offer an unparalleled building experience for collectors and enthusiasts. Their metal components, high level of detail, and premium materials make them prized additions to any Gundam collection."
+      ]
+    },
+    {
+      "tag": "Broken Part",
+      "patterns": [
+        "What should I do if a part is broken?",
+        "How can I fix a broken part in my Gundam model kit?",
+        "Dealing with broken parts in Gunpla",
+        "Broken pieces in Gundam model kits",
+        "Repairing broken parts",
+        "Broken part replacement",
+        "Gundam model kit maintenance"
+      ],
+      "responses": [
+        "If a part in your Gundam model kit is broken, don't panic! There are several ways to address the issue.",
+        "First, assess the damage to determine if the part can be repaired or if it needs to be replaced entirely.",
+        "For minor breaks, you can try using plastic cement or super glue to reattach the broken pieces. Be careful not to use too much adhesive, as it can affect the appearance and functionality of the part.",
+        "If the break is severe or affects the structural integrity of the model, you may need to replace the broken part. Many model kit manufacturers offer replacement parts or spare runners for popular kits.",
+        "You can contact the manufacturer's customer service or check their website for information on obtaining replacement parts. Some hobby shops also offer spare parts or can help you order them.",
+        "In the meantime, you can try using temporary fixes such as masking tape or putty to hold the broken pieces in place until you can obtain a replacement.",
+        "Remember to handle your Gundam model kits with care to avoid damaging delicate parts. Proper storage and handling can help prevent accidents and minimize the risk of broken pieces in the future."
+      ]
+    },
+    {
+      "tag": "Nipper",
+      "patterns": [
+        "What are nippers?",
+        "How do I use nippers for Gunpla?",
+        "Nipper techniques for Gundam model kits",
+        "Choosing the right nippers for Gunpla",
+        "Tips for using nippers",
+        "Nipper maintenance",
+        "Cutting plastic with nippers"
+      ],
+      "responses": [
+        "Nippers are a essential tool for assembling Gundam model kits. They are specialized cutting tools designed to cleanly remove plastic parts from the sprues (or runners) without damaging or stressing the parts.",
+        "When using nippers for Gunpla, it's important to use them correctly to achieve clean cuts and minimize stress marks on the plastic parts.",
+        "To use nippers, hold them perpendicular to the sprue and position the blades as close to the part as possible without touching it. Then, gently squeeze the handles to cut through the plastic.",
+        "Avoid cutting too close to the part to prevent stress marks. Leave a small amount of plastic attached to the part, which can be removed later with a hobby knife or sandpaper.",
+        "Choose nippers specifically designed for model kit assembly, as they have sharp, precision blades that ensure clean cuts and minimize the risk of damaging the parts.",
+        "After using nippers, clean them regularly to remove any plastic residue and maintain their sharpness. Store them in a safe place to prevent damage to the blades.",
+        "Using nippers correctly is key to achieving professional-looking results in your Gundam model kit builds. With practice and proper technique, you can master the art of using nippers for Gunpla assembly."
+      ]
+    },
+    {
+      "tag": "Box Art",
+      "patterns": [
+        "What is Gundam model kit box art?",
+        "Explain Gundam model kit packaging artwork.",
+        "Can you tell me about box art on Gundam model kits?",
+        "Gundam model kit box design",
+        "Box art themes",
+        "Gundam model kit packaging"
+      ],
+      "responses": [
+        "Gundam model kit box art refers to the artwork featured on the packaging of Gundam plastic model kits. It serves as both promotional material and a visual representation of the finished model.",
+        "The box art on Gundam model kits often depicts the completed model in dynamic poses, showcasing its features and accessories. It may also include background scenery, action scenes, or character illustrations to enhance the overall presentation.",
+        "Box art plays an important role in attracting customers and conveying the theme and style of the Gundam model kit. It reflects the aesthetics of the Gundam series and sets the tone for the building and customization experience.",
+        "Themes commonly depicted in Gundam model kit box art include battles in space or on Earth, dramatic poses of the mobile suit, and iconic scenes from the Gundam series. The artwork is often vibrant, detailed, and dynamic, capturing the essence of the Gundam universe.",
+        "Gundam model kit packaging is designed to be visually appealing and informative. In addition to the box art, it typically includes details such as the kit's scale, series, and a list of included parts and accessories.",
+        "Many Gundam model kit enthusiasts appreciate the box art as much as the model itself, often displaying the boxes as part of their collection. The artwork serves as a reminder of the building experience and the joy of assembling and customizing Gundam plastic model kits."
+      ]
+    },
+    {
+      "tag": "Gundam Box",
+      "patterns": [
+        "What should I do with the box after building a Gundam model kit?",
+        "How to recycle Gundam model kit boxes?",
+        "Gundam model kit box reuse ideas",
+        "Box disposal after assembling Gunpla",
+        "Creative uses for Gundam model kit boxes",
+        "Gundam box art display ideas"
+      ],
+      "responses": [
+        "Once you've assembled your Gundam model kit, you may wonder what to do with the box. Here are some ideas:",
+        "1. **Storage**: Use the box to store the unassembled parts, leftover decals, and instruction manual for future reference or repairs.",
+        "2. **Display**: Some collectors choose to display the box alongside the completed model as part of their collection. It serves as a visual reminder of the model's origins and can enhance the overall presentation.",
+        "3. **Recycling**: If you don't plan to keep the box, consider recycling it. Most Gundam model kit boxes are made of cardboard, which can be recycled to reduce waste.",
+        "4. **Reuse**: Get creative and repurpose the box for other purposes. You can use it for storing art supplies, organizing small items, or even as a makeshift diorama base for displaying your Gundam models.",
+        "5. **Art Projects**: Transform the box into artwork by painting or decorating it. You can create custom designs, add decals or stickers, or turn it into a mini diorama featuring scenes from your favorite Gundam series.",
+        "Ultimately, what you do with the box is up to you. Whether you choose to keep it for storage, display it as part of your collection, recycle it, or repurpose it for other projects, the box can continue to be a part of your Gunpla journey even after the model is complete."
+      ]
+    },
+    {
+      "tag": "Gundam Manual",
+      "patterns": [
+        "What is a Gundam model kit manual?",
+        "Explain Gundam model kit assembly instructions.",
+        "Can you tell me about the Gundam model kit manual?",
+        "Gundam kit instruction booklet",
+        "Understanding Gundam model kit manuals",
+        "Reading Gundam model kit instructions"
+      ],
+      "responses": [
+        "A Gundam model kit manual is a booklet included with every Gundam plastic model kit that provides step-by-step instructions for assembling the model.",
+        "The manual typically features detailed illustrations or diagrams accompanied by written instructions in multiple languages, guiding builders through the assembly process.",
+        "Gundam model kit manuals are designed to be user-friendly and accessible to modelers of all skill levels, from beginners to experienced enthusiasts.",
+        "The instructions in the manual are organized logically, starting with an overview of the kit's contents and assembly tools, followed by step-by-step assembly instructions for each component of the model.",
+        "Builders are advised to read the manual carefully before starting assembly to familiarize themselves with the kit's parts and construction sequence. Following the instructions accurately ensures a smooth building experience and a high-quality finished model.",
+        "In addition to assembly instructions, Gundam model kit manuals often include information about the mobile suit depicted in the model, its weapons and equipment, and background lore from the Gundam series.",
+        "Gundam model kit manuals are valuable resources for Gundam enthusiasts, providing not only assembly guidance but also insights into the world of Gundam and the mobile suits featured in the series."
+      ]
+    },
+    {
+      "tag": "Missing Part",
+      "patterns": [
+        "What should I do if a part is missing from my Gundam model kit?",
+        "Dealing with missing pieces in Gunpla",
+        "Missing parts in Gundam model kits",
+        "What to do when a piece is missing from a Gunpla kit",
+        "Replacement parts for Gundam model kits",
+        "Contacting Bandai about missing pieces"
+      ],
+      "responses": [
+        "If you discover that a part is missing from your Gundam model kit, don't worry! There are several steps you can take to resolve the issue:",
+        "1. **Double-check**: Before taking any further action, thoroughly search the kit's packaging and surrounding area to ensure that the missing part hasn't been misplaced.",
+        "2. **Review the manual**: Refer to the assembly manual to confirm which part is missing and its intended location in the model. Sometimes, parts may be labeled differently or located in unexpected places.",
+        "3. **Contact the retailer**: If you purchased the kit from a retailer, contact them to report the missing part. Many retailers have policies in place to provide replacement parts or facilitate exchanges for defective products.",
+        "4. **Contact Bandai**: If you're unable to obtain a replacement part from the retailer, you can contact Bandai's customer service department directly. Provide them with details about the missing part, including the kit's model number and your contact information.",
+        "5. **Provide proof of purchase**: In some cases, Bandai may require proof of purchase to process your request for a replacement part. Be prepared to provide a copy of your receipt or order confirmation.",
+        "6. **Be patient**: It may take some time for the retailer or Bandai to process your request and ship the replacement part. Be patient and follow up if necessary to ensure that your issue is resolved satisfactorily.",
+        "By taking these steps, you can increase the chances of obtaining a replacement part for your Gundam model kit and continue enjoying the building experience without interruption."
+      ]
+    },
+    {
+      "tag": "Sanding",
+      "patterns": [
+        "What is sanding in Gunpla?",
+        "Explain sanding in Gundam model kit assembly.",
+        "How do I sand a Gundam model kit?",
+        "Sanding techniques for Gunpla",
+        "Sanding tools for Gundam models",
+        "Sanding seams in Gunpla"
+      ],
+      "responses": [
+        "Sanding is a crucial step in Gundam model kit assembly that involves smoothing out imperfections, removing seam lines, and preparing surfaces for painting or detailing.",
+        "Sanding helps to achieve a clean, polished finish on the model and ensures that parts fit together seamlessly for a professional-looking result.",
+        "To sand a Gundam model kit, you'll need sandpaper or sanding sticks in various grits, ranging from coarse to fine. Coarse grits are used to remove excess material or seam lines, while finer grits are used for smoothing and polishing.",
+        "Begin by identifying any seam lines or rough areas on the model that need to be addressed. Use a coarse grit sandpaper or sanding stick to carefully sand along the seam line, applying gentle pressure to remove excess material.",
+        "Once the seam line is smoothed out, switch to a finer grit sandpaper to refine the surface and remove any scratches or marks left by the coarse grit sandpaper. Continue sanding until the surface is smooth and uniform.",
+        "Be patient and work gradually, checking your progress frequently to avoid over-sanding or damaging the plastic. Take breaks if necessary to prevent fatigue and ensure precision in your sanding technique.",
+        "After sanding, thoroughly clean the model with a soft brush or cloth to remove any dust or debris. Inspect the surface for any remaining imperfections and sand as needed until you achieve the desired finish.",
+        "By mastering the art of sanding, you can enhance the appearance of your Gundam model kits and take your building skills to the next level."
+      ]
+    },
+    {
+      "tag": "Priming",
+      "patterns": [
+        "What is priming in Gunpla painting?",
+        "Explain priming in Gundam model kit painting.",
+        "How do I prime a Gundam model kit?",
+        "Priming techniques for Gunpla",
+        "Priming materials for Gundam models",
+        "Priming before painting Gunpla"
+      ],
+      "responses": [
+        "Priming is an essential step in Gundam model kit painting that involves applying a base coat of primer to the plastic surface before painting.",
+        "The primer serves several purposes, including improving paint adhesion, smoothing out imperfections, and enhancing the durability of the paint job.",
+        "To prime a Gundam model kit, you'll need a suitable primer specifically designed for use on plastic surfaces. Common types of primer include acrylic, enamel, and lacquer-based primers.",
+        "Before applying primer, ensure that the model kit is clean and free of dust, grease, and other contaminants. You can use a mild detergent or rubbing alcohol to clean the surface thoroughly.",
+        "Spray the primer onto the model using smooth, even strokes, holding the can approximately 6-8 inches away from the surface. Apply multiple thin coats rather than one thick coat to achieve better coverage and avoid drips or runs.",
+        "Allow each coat of primer to dry completely before applying the next coat. Check the manufacturer's instructions for recommended drying times between coats.",
+        "After priming, inspect the surface for any imperfections or areas that may need additional priming. Sand lightly if necessary to smooth out any rough spots or build-up.",
+        "Once the primer has fully dried and the surface is smooth, your Gundam model kit is ready for painting. The primer provides a solid foundation for the paint to adhere to and helps ensure a professional-looking finish."
+      ]
+    },
+    {
+      "tag": "Top Coating",
+      "patterns": [
+        "What is top coating in Gunpla painting?",
+        "Explain top coating in Gundam model kit painting.",
+        "How do I top coat a Gundam model kit?",
+        "Top coating techniques for Gunpla",
+        "Top coating materials for Gundam models",
+        "Top coating after painting Gunpla"
+      ],
+      "responses": [
+        "Top coating is a crucial final step in Gundam model kit painting that involves applying a clear protective layer over the painted surface to enhance durability, protect against scratches, and provide a uniform finish.",
+        "The top coat serves to seal and protect the paint job, preventing it from chipping, fading, or yellowing over time.",
+        "To top coat a Gundam model kit, you'll need a suitable clear coat specifically designed for use on plastic surfaces. Common types of top coat include gloss, semi-gloss, and matte finishes.",
+        "Before applying top coat, ensure that the painted surface is clean and free of dust, fingerprints, and other contaminants. Allow the paint to dry completely before proceeding.",
+        "Spray the top coat onto the model using smooth, even strokes, holding the can approximately 6-8 inches away from the surface. Apply multiple thin coats rather than one thick coat to achieve better coverage and avoid drips or runs.",
+        "Allow each coat of top coat to dry completely before applying the next coat. Check the manufacturer's instructions for recommended drying times between coats.",
+        "After top coating, allow the model to dry thoroughly in a well-ventilated area. Avoid handling the model until the top coat has fully cured to prevent smudges or fingerprints.",
+        "Once the top coat has dried and cured, your Gundam model kit is protected and ready for display. The top coat provides a protective barrier against damage and enhances the appearance of the painted finish."
+      ]
+    },
+    {
+      "tag": "Painting",
+      "patterns": [
+        "What is painting in Gunpla?",
+        "Explain painting in Gundam model kit assembly.",
+        "How do I paint a Gundam model kit?",
+        "Painting techniques for Gunpla",
+        "Painting materials for Gundam models",
+        "Painting steps for Gunpla"
+      ],
+      "responses": [
+        "Painting in Gunpla refers to the process of applying paint to the plastic surfaces of Gundam model kits to enhance their appearance, customize their colors, and add details.",
+        "Painting allows modelers to personalize their Gundam models, replicate specific color schemes from the Gundam series, or create entirely original designs.",
+        "To paint a Gundam model kit, you'll need a variety of painting materials, including paints, brushes, airbrushes, masking tape, and primer.",
+        "Before painting, it's essential to prepare the model surfaces by cleaning them thoroughly and, if necessary, sanding or priming to ensure proper paint adhesion.",
+        "Choose paints suitable for use on plastic surfaces, such as acrylic, enamel, or lacquer-based paints. Select colors that match your desired design or customize colors by mixing paints.",
+        "Apply the paint using smooth, even strokes, building up thin layers to achieve the desired opacity and coverage. Allow each layer of paint to dry completely before applying the next layer.",
+        "Masking tape can be used to create clean edges and separate areas of different colors. Be sure to remove the tape carefully to avoid damaging the paint.",
+        "Once the painting is complete, you can further enhance the appearance of the model by applying decals, panel lining, and top coat for added detail and protection.",
+        "With practice and patience, painting can transform a Gundam model kit into a unique work of art that reflects your creativity and skill as a modeler."
+      ]
+    },
+    {
+      "tag": "Modification",
+      "patterns": [
+        "What is modification in Gunpla?",
+        "Explain modification in Gundam model kit assembly.",
+        "How do I modify a Gundam model kit?",
+        "Modification techniques for Gunpla",
+        "Tools for Gundam model kit modification",
+        "Customizing Gundam models"
+      ],
+      "responses": [
+        "Modification in Gunpla refers to the process of altering or customizing Gundam model kits to create unique designs, improve aesthetics, or add additional features.",
+        "Modifications can range from simple changes such as swapping out parts or adding decals to more complex alterations such as kitbashing, scratch-building, or adding LED lights.",
+        "To modify a Gundam model kit, you'll need various tools and materials depending on the extent of the modification. Common tools include hobby knives, sandpaper, putty, plastic cement, and paint.",
+        "Before starting any modifications, carefully plan out your design and consider how each modification will affect the overall appearance and functionality of the model.",
+        "Simple modifications may involve minor part swaps, such as replacing hands or weapons with aftermarket parts, or adding decals and panel lining to enhance detail.",
+        "For more advanced modifications, you may need to kitbash parts from different Gundam model kits to create a custom design or scratch-build additional details using putty or plastic sheets.",
+        "LED lights can be added to Gundam model kits to create illuminated effects, such as glowing eyes or thrusters. This often requires drilling holes for wiring and installing batteries or power sources.",
+        "Modifying Gundam model kits allows builders to unleash their creativity and personalize their models to suit their preferences. Whether you're making subtle changes or extensive modifications, the possibilities are endless."
+      ]
+    },
+    {
+      "tag": "Wing Zero",
+      "patterns": [
+        "What is the Wing Gundam Zero?",
+        "Tell me about the Wing Zero from Gundam Wing.",
+        "Explain the Wing Zero model kit.",
+        "Wing Gundam Zero in Gundam series",
+        "Features of Wing Zero",
+        "Wing Zero model kit"
+      ],
+      "responses": [
+        "The Wing Gundam Zero, also known as simply Wing Zero, is a mobile suit featured in the anime series Mobile Suit Gundam Wing.",
+        "Piloted by the protagonist Heero Yuy, the Wing Zero is known for its impressive combat capabilities, sleek design, and powerful weaponry.",
+        "The Wing Zero is part of the Gundams designed by the five scientists of the Barton Foundation in the After Colony timeline.",
+        "The Wing Zero is equipped with a variety of weapons, including twin buster rifles, beam sabers, and vulcan guns, making it a formidable opponent in battle.",
+        "In addition to its offensive capabilities, the Wing Zero features angelic wings that can unfold during combat, giving it enhanced mobility and agility.",
+        "The Wing Zero has become one of the most iconic mobile suits in the Gundam series, inspiring numerous model kits, action figures, and other merchandise.",
+        "Model kits of the Wing Zero are available in various scales, including High Grade (HG), Master Grade (MG), and Perfect Grade (PG), allowing fans to recreate the mobile suit in stunning detail."
+      ]
+    },
+    {
+      "tag": "Wing TV Series",
+      "patterns": [
+        "What is the 'Mobile Suit Gundam Wing' TV series about?",
+        "Tell me about 'Gundam Wing' TV series.",
+        "Explain the plot of 'Mobile Suit Gundam Wing'.",
+        "Wing Gundam TV series",
+        "Characters in 'Gundam Wing' TV series",
+        "Main storyline of 'Mobile Suit Gundam Wing'"
+      ],
+      "responses": [
+        "'Mobile Suit Gundam Wing' is a Japanese anime television series that aired in 1995, part of the popular Gundam franchise.",
+        "The series is set in the After Colony timeline, where humanity has colonized space and is divided between the Earth Sphere Alliance and the space colonies.",
+        "The story follows the five Gundam pilots - Heero Yuy, Duo Maxwell, Trowa Barton, Quatre Raberba Winner, and Chang Wufei - who are sent to Earth to carry out Operation Meteor, a plan to overthrow the oppressive rule of the Earth Sphere Alliance.",
+        "Each pilot is assigned a unique Gundam mobile suit, equipped with advanced technology and weaponry, to accomplish their mission.",
+        "As the series progresses, the pilots become embroiled in a complex web of political intrigue, rivalries, and alliances, leading to epic battles and dramatic confrontations.",
+        "'Mobile Suit Gundam Wing' is known for its compelling characters, intricate plot, and action-packed mecha battles, making it a beloved and influential series in the Gundam franchise."
+      ]
+    },
+    {
+      "tag": "SEED Destiny TV Series",
+      "patterns": [
+        "What is the 'Mobile Suit Gundam SEED Destiny' TV series about?",
+        "Tell me about 'SEED Destiny' TV series.",
+        "Explain the plot of 'Mobile Suit Gundam SEED Destiny'.",
+        "SEED Destiny Gundam TV series",
+        "Characters in 'Gundam SEED Destiny' TV series",
+        "Main storyline of 'Mobile Suit Gundam SEED Destiny'"
+      ],
+      "responses": [
+        "'Mobile Suit Gundam SEED Destiny' is a Japanese anime television series that aired in 2004, serving as a sequel to the original 'Mobile Suit Gundam SEED' series.",
+        "The series is set in the Cosmic Era timeline and continues the conflict between the Earth Alliance, ZAFT, and the Clyne Faction.",
+        "The story follows a new generation of pilots, including Shinn Asuka, Athrun Zala, and Kira Yamato, as they become embroiled in a new war sparked by the breakaway faction known as the Destiny Plan.",
+        "As tensions escalate, old rivalries resurface, and new alliances are formed, leading to epic battles and personal conflicts.",
+        "The series explores themes of war, destiny, and the consequences of human ambition, while also delving into the personal struggles and motivations of its diverse cast of characters.",
+        "'Mobile Suit Gundam SEED Destiny' is known for its intense action sequences, complex plot twists, and dramatic character development, making it a popular and influential series in the Gundam franchise."
+      ]
+    },
+    {
+      "tag": "War in the Pocket",
+      "patterns": [
+        "What is 'Mobile Suit Gundam 0080: War in the Pocket' about?",
+        "Tell me about 'War in the Pocket'.",
+        "Explain the plot of 'Mobile Suit Gundam 0080: War in the Pocket'.",
+        "'War in the Pocket' Gundam OVA series",
+        "Characters in 'Gundam 0080: War in the Pocket'",
+        "Main storyline of 'Mobile Suit Gundam 0080: War in the Pocket'"
+      ],
+      "responses": [
+        "'Mobile Suit Gundam 0080: War in the Pocket' is a six-episode original video animation (OVA) series released in 1989.",
+        "Set in the Universal Century timeline, the story takes place in the final days of the One Year War, a conflict between the Earth Federation and the Principality of Zeon.",
+        "The series follows the perspective of Alfred Izuruha, a young boy living in a neutral space colony called Side 6. Alfred becomes fascinated with the war and the mobile suits involved.",
+        "Alfred's life takes a dramatic turn when he encounters a Zeon pilot named Bernard Wiseman and becomes involved in a secret mission to uncover the Earth Federation's new prototype mobile suit, the RX-78NT-1 Gundam 'Alex'.",
+        "As Alfred befriends Bernard and learns more about the realities of war, he is forced to confront the harsh truths and consequences of the conflict unfolding around him.",
+        "'Mobile Suit Gundam 0080: War in the Pocket' is praised for its compelling characters, thought-provoking storyline, and emotional depth, making it one of the standout entries in the Gundam franchise."
+      ]
+    },
+    {
+      "tag": "Thunderbolt",
+      "patterns": [
+        "What is 'Mobile Suit Gundam Thunderbolt' about?",
+        "Tell me about 'Thunderbolt'.",
+        "Explain the plot of 'Mobile Suit Gundam Thunderbolt'.",
+        "'Thunderbolt' Gundam series",
+        "Characters in 'Gundam Thunderbolt'",
+        "Main storyline of 'Mobile Suit Gundam Thunderbolt'"
+      ],
+      "responses": [
+        "'Mobile Suit Gundam Thunderbolt' is a manga series written and illustrated by Yasuo Ohtagaki, serialized in Big Comic Superior magazine since 2012.",
+        "The manga has been adapted into an anime series, with two seasons released in 2015 and 2017, respectively.",
+        "Set in the Universal Century timeline, the story revolves around the conflict between the Earth Federation and the Principality of Zeon during the One Year War.",
+        "The series focuses on the intense battles between the Federation's Moore Brotherhood and Zeon's Living Dead Division in the Thunderbolt Sector, a debris-filled battleground littered with wreckage and space colonies.",
+        "The main characters include Io Fleming, a hotshot Federation pilot known for his skill and recklessness, and Daryl Lorenz, a Zeon ace pilot who becomes embroiled in the conflict despite his injuries.",
+        "As the war escalates, both sides are pushed to their limits, facing not only the enemy but also the harsh realities of combat and the toll it takes on their humanity.",
+        "'Mobile Suit Gundam Thunderbolt' is praised for its gritty realism, stunning artwork, and compelling characters, offering a unique perspective on the events of the One Year War."
+      ]
+    },
+    {
+      "tag": "Hathaway",
+      "patterns": [
+        "What is 'Mobile Suit Gundam Hathaway's Flash' about?",
+        "Tell me about 'Hathaway'.",
+        "Explain the plot of 'Mobile Suit Gundam Hathaway's Flash'.",
+        "'Hathaway' Gundam movie",
+        "Characters in 'Gundam Hathaway's Flash'",
+        "Main storyline of 'Mobile Suit Gundam Hathaway's Flash'"
+      ],
+      "responses": [
+        "'Mobile Suit Gundam Hathaway's Flash' is a novel series written by Yoshiyuki Tomino, first serialized in the Gundam Ace magazine in 1989.",
+        "The story has been adapted into an anime film trilogy, with the first film released in 2021.",
+        "Set in the Universal Century timeline, the story takes place after the events of 'Mobile Suit Gundam Unicorn' and 'Mobile Suit Gundam Narrative'.",
+        "The plot follows Hathaway Noa, son of Bright Noa, who becomes involved in a terrorist organization known as Mafty Navue Erin, seeking to oppose the corrupt Earth Federation government and its policies.",
+        "As Hathaway grapples with his own convictions and the legacy of his father, he becomes embroiled in a conflict that threatens to escalate into full-scale war.",
+        "The series explores themes of justice, rebellion, and the consequences of war, as well as the personal struggles and motivations of its diverse cast of characters.",
+        "'Mobile Suit Gundam Hathaway's Flash' is praised for its thought-provoking storyline, complex characters, and stunning animation, offering a compelling addition to the Gundam franchise."
+      ]
+    },
+    {
+      "tag": "Premium Bandai",
+      "patterns": [
+        "What is Premium Bandai?",
+        "Tell me about Premium Bandai.",
+        "Explain what Premium Bandai offers.",
+        "Premium Bandai products",
+        "How does Premium Bandai work?",
+        "Premium Bandai exclusives"
+      ],
+      "responses": [
+        "Premium Bandai is an online retailer that specializes in offering limited edition and exclusive merchandise related to popular franchises, including Gundam.",
+        "The platform is operated by Bandai Namco Group and serves as a direct-to-consumer channel for fans to purchase collectibles, apparel, accessories, and other products not available through traditional retail channels.",
+        "Premium Bandai offers a wide range of merchandise, including model kits, action figures, apparel, accessories, and lifestyle goods, featuring popular characters and series from the Gundam franchise and other Bandai properties.",
+        "One of the key features of Premium Bandai is its exclusivity, with many products available only through the platform. These exclusives often include limited edition model kits, variant color schemes, and special collaborations with other brands.",
+        "To purchase from Premium Bandai, customers typically need to pre-order items during specific sales periods. Once the pre-order window closes, the products are produced in limited quantities and shipped to customers upon release.",
+        "Premium Bandai products are highly sought after by collectors and enthusiasts for their unique designs, high quality, and rarity. Due to their limited availability, they often become valuable items in the secondary market."
+      ]
+    },
+    {
+      "tag": "Gundam Base",
+      "patterns": [
+        "What is Gundam Base?",
+        "Tell me about Gundam Base.",
+        "Explain what Gundam Base offers.",
+        "Gundam Base locations",
+        "What can I find at Gundam Base?",
+        "Gundam Base events"
+      ],
+      "responses": [
+        "Gundam Base is a chain of specialty stores and exhibition spaces dedicated to the Gundam franchise, operated by Bandai Namco Group.",
+        "These stores serve as official retail outlets for Gundam model kits, merchandise, accessories, and exclusive items, as well as exhibition spaces showcasing various Gundam displays, dioramas, and interactive experiences.",
+        "Gundam Base locations can be found in major cities around the world, including Tokyo, Seoul, Hong Kong, and Singapore, with each store offering a unique selection of products and experiences tailored to local fans.",
+        "At Gundam Base, you can find a wide range of Gundam model kits, including High Grade (HG), Master Grade (MG), Perfect Grade (PG), and other specialty kits, as well as limited edition and exclusive items.",
+        "In addition to retail offerings, Gundam Base often hosts special events, workshops, and exhibitions related to Gundam, providing fans with opportunities to engage with the franchise and connect with other enthusiasts.",
+        "Gundam Base is a must-visit destination for Gundam fans of all ages, offering a one-of-a-kind shopping and entertainment experience centered around their favorite mobile suits and characters."
+      ]
+    },
+    {
+      "tag": "G-Self",
+      "patterns": [
+        "What is the G-Self?",
+        "Tell me about the G-Self.",
+        "Explain the G-Self mobile suit.",
+        "G-Self in Gundam series",
+        "Features of G-Self",
+        "G-Self model kit"
+      ],
+      "responses": [
+        "The G-Self is a mobile suit featured in the anime series 'Gundam Reconguista in G', created by Yoshiyuki Tomino.",
+        "Piloted by the protagonist, Bellri Zenam, the G-Self is a unique mobile suit known for its versatility, agility, and advanced technology.",
+        "The G-Self is part of the Capital Army's forces and is designed for both atmospheric and space combat, featuring a distinctive design with a spherical cockpit and large wings.",
+        "One of the notable features of the G-Self is its ability to transform into various modes, including the Core Fighter mode for high-speed flight and the Perfect Pack mode for enhanced firepower and mobility.",
+        "In addition to its transformation capabilities, the G-Self is equipped with a variety of weapons, including beam sabers, beam rifles, and shield boosters, making it a formidable opponent in battle.",
+        "Model kits of the G-Self are available in various scales, including High Grade (HG) and Master Grade (MG), allowing fans to recreate the mobile suit in stunning detail and customize it to their preferences."
+      ]
+    },
+    {
+      "tag": "Gundam AGE",
+      "patterns": [
+        "What is 'Mobile Suit Gundam AGE'?",
+        "Tell me about 'Gundam AGE'.",
+        "Explain the plot of 'Mobile Suit Gundam AGE'.",
+        "Gundam AGE anime series",
+        "Characters in 'Gundam AGE'",
+        "Main storyline of 'Mobile Suit Gundam AGE'"
+      ],
+      "responses": [
+        "'Mobile Suit Gundam AGE' is a Japanese anime television series produced by Sunrise, airing from 2011 to 2012.",
+        "The series is divided into four story arcs, each focusing on a different generation of protagonists and their encounters with the mysterious enemy race known as the Unknown Enemy (UE).",
+        "The story spans several generations, beginning with Flit Asuno, a young boy who witnesses a UE attack on his space colony and vows to create the ultimate weapon to defeat them - the Gundam.",
+        "As the series progresses, Flit's descendants, Asemu Asuno and Kio Asuno, inherit the mantle of piloting Gundam mobile suits and continue the fight against the UE, facing new challenges and adversaries along the way.",
+        "Each generation of protagonists faces its own trials and tribulations, as they strive to protect humanity and uncover the truth behind the UE's motives.",
+        "'Mobile Suit Gundam AGE' received mixed reviews from fans and critics, with praise for its unique storytelling approach and character development, but criticism for its pacing and overall execution.",
+        "Despite its mixed reception, 'Mobile Suit Gundam AGE' remains a significant entry in the Gundam franchise, offering a different perspective on the ongoing struggle between humans and their extraterrestrial adversaries."
+      ]
+    },
+    {
+      "tag": "Mono Eyes",
+      "patterns": [
+        "What are mono eyes?",
+        "Explain mono eyes in Gundam.",
+        "What is the significance of mono eyes?",
+        "Mono eye mobile suits",
+        "Why do some mobile suits have mono eyes?",
+        "Mono eyes in Zeon mobile suits"
+      ],
+      "responses": [
+        "In the Gundam universe, mono eyes refer to a distinctive feature found in many mobile suits, particularly those associated with the Principality of Zeon.",
+        "Mono eyes are single, centrally located camera sensors that serve as the primary visual sensor for the mobile suit's pilot.",
+        "The design of mono eyes is inspired by the cyclopean visor of classic science fiction robots, giving the mobile suits a menacing and otherworldly appearance.",
+        "Mono eyes offer several advantages in combat, including a wide field of view and improved depth perception, allowing pilots to accurately target and engage enemy units.",
+        "Additionally, mono eyes often incorporate advanced sensor technology, such as infrared and night vision capabilities, enhancing the mobile suit's effectiveness in various combat scenarios.",
+        "Some of the most iconic mono eye mobile suits include the Zaku series, the Gelgoog, and the Dom, all of which are prominently featured in the Universal Century timeline.",
+        "Overall, mono eyes are not only a distinctive visual feature of many Zeon mobile suits but also serve a practical purpose in enhancing their combat capabilities, making them a key element of Gundam design."
+      ]
+    },
+    {
+      "tag": "Grunt Suits",
+      "patterns": [
+        "What are grunt suits?",
+        "Explain grunt suits in Gundam.",
+        "What is the role of grunt suits?",
+        "Grunt mobile suits",
+        "Why are grunt suits important?",
+        "Examples of grunt suits"
+      ],
+      "responses": [
+        "In the Gundam universe, grunt suits, also known as mass-produced mobile suits or mass production types, are a category of mobile suits that form the backbone of most military forces.",
+        "Grunt suits are typically mass-produced, standardized mobile suits designed for frontline combat roles, serving as the mainstay of a faction's armed forces.",
+        "The role of grunt suits is to provide numerical superiority and versatility on the battlefield, acting as the primary fighting force in large-scale conflicts.",
+        "While grunt suits may lack the individual power and advanced technology of prototype or ace pilot mobile suits, they compensate for this with sheer numbers and adaptability.",
+        "Grunt suits are often equipped with basic armaments such as machine guns, beam rifles, and melee weapons, making them effective in a variety of combat situations.",
+        "Examples of grunt suits include the Zaku series used by the Principality of Zeon in the Universal Century timeline, the GM series employed by the Earth Federation Forces, and the Graze units utilized by Gjallarhorn in the Iron-Blooded Orphans timeline.",
+        "While grunt suits may not always receive the same attention or recognition as protagonist or ace pilot mobile suits, they play a crucial role in shaping the outcome of battles and conflicts within the Gundam universe."
+      ]
+    },
+    {
+      "tag": "Gundam Origin",
+      "patterns": [
+        "What is 'Mobile Suit Gundam: The Origin'?",
+        "Tell me about 'Gundam: The Origin'.",
+        "Explain the plot of 'Mobile Suit Gundam: The Origin'.",
+        "'Gundam: The Origin' manga series",
+        "Characters in 'Mobile Suit Gundam: The Origin'",
+        "Main storyline of 'Gundam: The Origin'"
+      ],
+      "responses": [
+        "'Mobile Suit Gundam: The Origin' is a manga series written and illustrated by Yoshikazu Yasuhiko, based on the original 'Mobile Suit Gundam' anime series created by Yoshiyuki Tomino.",
+        "The manga serves as a retelling of the events leading up to the One Year War, the conflict between the Earth Federation and the Principality of Zeon, which is central to the Gundam universe.",
+        "The story delves into the origins of key characters such as Amuro Ray, Char Aznable, and Sayla Mass, exploring their backgrounds, motivations, and relationships before they became involved in the war.",
+        "'Mobile Suit Gundam: The Origin' also introduces new characters and expands upon the political intrigue, social tensions, and technological developments that set the stage for the conflict.",
+        "The manga has been adapted into an anime series, with several episodes released as OVA (Original Video Animation) episodes, covering different chapters of the storyline.",
+        "'Mobile Suit Gundam: The Origin' is praised for its rich storytelling, detailed artwork, and fleshed-out characters, providing fans with a deeper understanding of the Gundam universe and its iconic characters."
+      ]
+    },
+    {
+      "tag": "Stargazer",
+      "patterns": [
+        "What is 'Mobile Suit Gundam SEED C.E. 73: Stargazer'?",
+        "Tell me about 'Stargazer'.",
+        "Explain the plot of 'Mobile Suit Gundam SEED C.E. 73: Stargazer'.",
+        "'Stargazer' Gundam series",
+        "Characters in 'Gundam SEED C.E. 73: Stargazer'",
+        "Main storyline of 'Stargazer'"
+      ],
+      "responses": [
+        "'Mobile Suit Gundam SEED C.E. 73: Stargazer' is a three-episode original net animation (ONA) series set in the Cosmic Era timeline of the Gundam universe.",
+        "It serves as a side story to the 'Mobile Suit Gundam SEED Destiny' anime series, focusing on events occurring concurrently with the main storyline.",
+        "The plot follows the crew of the Phantom Pain special forces unit, who are assigned to test pilot the experimental mobile suit units known as the Stargazer and the Strike Noir.",
+        "As the story unfolds, the crew of the Phantom Pain find themselves caught in the middle of a conflict between the Earth Alliance and the PLANTs, as well as facing the enigmatic threat of the GSX-401-FW Stargazer Gundam and its advanced technology.",
+        "The series explores themes of warfare, human nature, and the consequences of scientific advancement, presenting a darker and more introspective take on the Gundam universe.",
+        "'Mobile Suit Gundam SEED C.E. 73: Stargazer' received praise for its animation quality, character development, and engaging storyline, despite its short length."
+      ]
+    },
+    {
+      "tag": "Gundam X",
+      "patterns": [
+        "What is 'Gundam X'?",
+        "Tell me about 'Gundam X'.",
+        "Explain the plot of 'Gundam X'.",
+        "'Gundam X' anime series",
+        "Characters in 'Gundam X'",
+        "Main storyline of 'Gundam X'"
+      ],
+      "responses": [
+        "'Gundam X' is a Japanese anime television series produced by Sunrise, airing from 1996 to 1997.",
+        "Set in the After War timeline, 'Gundam X' takes place in a post-apocalyptic world where humanity is struggling to recover from a devastating conflict known as the Seventh Space War.",
+        "The series follows the adventures of Garrod Ran, a young scavenger who becomes involved in the conflict between the various factions vying for power in the aftermath of the war.",
+        "Garrod encounters Tiffa Adill, a mysterious girl with psychic abilities, and together they embark on a journey to find the elusive Gundam X, a powerful mobile suit that holds the key to humanity's future.",
+        "As they traverse the war-torn landscape, Garrod and Tiffa encounter new allies and enemies, uncovering secrets about the war and their own destinies along the way.",
+        "'Gundam X' is praised for its unique setting, mature themes, and compelling storyline, offering a fresh take on the Gundam franchise while exploring themes of war, survival, and hope.",
+        "Despite its short run, 'Gundam X' has garnered a dedicated fanbase and remains a beloved entry in the Gundam series."
+      ]
+    },
+    {
+      "tag": "Gundam F90",
+      "patterns": [
+        "What is 'Gundam F90'?",
+        "Tell me about 'Gundam F90'.",
+        "Explain the plot of 'Gundam F90'.",
+        "'Gundam F90' manga series",
+        "Characters in 'Gundam F90'",
+        "Main storyline of 'Gundam F90'"
+      ],
+      "responses": [
+        "'Gundam F90' is a manga series written by Tomohiro Chiba and illustrated by Masato Natsumoto, serialized in Gundam Ace magazine from 1990 to 1991.",
+        "Set in the Universal Century timeline, 'Gundam F90' takes place after the events of the 'Mobile Suit Gundam F91' movie.",
+        "The series follows the adventures of Berah Ronah, a test pilot for the Earth Federation Forces, who is tasked with evaluating the performance of the Gundam F90 prototype mobile suit.",
+        "As Berah becomes embroiled in various conflicts and encounters with rival factions, he uncovers secrets about the Gundam F90's development and the true intentions of those involved.",
+        "'Gundam F90' features a diverse cast of characters, including Berah's allies and adversaries, as well as various mobile suit units and factions vying for power in the post-'Gundam F91' era.",
+        "The manga explores themes of war, identity, and the consequences of technological advancement, offering a deeper look into the events and aftermath of the 'Gundam F91' movie.",
+        "Despite its short run, 'Gundam F90' is well-regarded by fans for its engaging storyline, well-developed characters, and detailed mobile suit designs."
+      ]
+    },
+    {
+      "tag": "Endless Waltz",
+      "patterns": [
+        "What is 'Endless Waltz'?",
+        "Tell me about 'Endless Waltz'.",
+        "Explain the plot of 'Endless Waltz'.",
+        "'Endless Waltz' OVA series",
+        "Characters in 'Endless Waltz'",
+        "Main storyline of 'Endless Waltz'"
+      ],
+      "responses": [
+        "'Mobile Suit Gundam Wing: Endless Waltz' is an original video animation (OVA) series set in the After Colony timeline of the Gundam universe.",
+        "It serves as a sequel to the 'Mobile Suit Gundam Wing' anime series, continuing the story of the five Gundam pilots and their struggle for peace in the aftermath of the Eve Wars.",
+        "The plot of 'Endless Waltz' revolves around the return of the Gundams and the emergence of a new threat known as the Mariemaia Army, led by the ambitious Mariemaia Khushrenada.",
+        "As the Earth Sphere faces the specter of war once again, the Gundam pilots must reunite and confront their pasts in order to protect the future of humanity.",
+        "'Endless Waltz' consists of three OVA episodes, each expanding upon the characters and themes introduced in the original series while providing thrilling action sequences and dramatic plot twists.",
+        "The OVA series is known for its dynamic animation, memorable mecha designs, and epic battles, making it a beloved addition to the Gundam Wing franchise.",
+        "In addition to the OVA series, 'Endless Waltz' has been adapted into a manga and novel, further expanding upon the lore and universe of 'Mobile Suit Gundam Wing'."
+      ]
+    },
+    {
+      "tag": "Gundam ZZ",
+      "patterns": [
+        "What is 'Mobile Suit Gundam ZZ'?",
+        "Tell me about 'Gundam ZZ'.",
+        "Explain the plot of 'Mobile Suit Gundam ZZ'.",
+        "'Gundam ZZ' anime series",
+        "Characters in 'Gundam ZZ'",
+        "Main storyline of 'Gundam ZZ'"
+      ],
+      "responses": [
+        "'Mobile Suit Gundam ZZ' is a Japanese anime television series produced by Sunrise, airing from 1986 to 1987.",
+        "It is the sequel to 'Mobile Suit Zeta Gundam' and the third installment in the Universal Century timeline of the Gundam franchise.",
+        "The series follows the story of Judau Ashta, a young junk dealer who becomes involved in the conflict between the AEUG (Anti-Earth Union Group) and the Titans, two opposing factions fighting for control of the Earth Sphere.",
+        "As Judau and his friends join the AEUG aboard the battleship Argama, they pilot the new Gundam mobile suits and engage in battles against the oppressive Titans forces and the enigmatic Neo Zeon remnants.",
+        "'Gundam ZZ' is known for its mix of serious drama and comedic elements, as well as its large ensemble cast of characters and epic space battles.",
+        "While initially met with mixed reception due to its tonal shift from the darker themes of 'Zeta Gundam', 'Gundam ZZ' has since gained a dedicated fanbase and is considered an important chapter in the Universal Century saga.",
+        "The series concludes the Gryps Conflict and sets the stage for future events in the Universal Century timeline."
+      ]
+    },
+    {
+      "tag": "Stardust Memory",
+      "patterns": [
+        "What is 'Mobile Suit Gundam 0083: Stardust Memory'?",
+        "Tell me about 'Stardust Memory'.",
+        "Explain the plot of 'Mobile Suit Gundam 0083: Stardust Memory'.",
+        "'Stardust Memory' anime series",
+        "Characters in 'Stardust Memory'",
+        "Main storyline of 'Stardust Memory'"
+      ],
+      "responses": [
+        "'Mobile Suit Gundam 0083: Stardust Memory' is a Japanese anime OVA series produced by Sunrise, consisting of 13 episodes.",
+        "It is set in the Universal Century timeline of the Gundam franchise, between the events of the original 'Mobile Suit Gundam' and 'Mobile Suit Zeta Gundam'.",
+        "The series follows the story of Kou Uraki, a young pilot assigned to the Earth Federation Forces' prototype Gundam Unit 1, codenamed the 'GP01'.",
+        "As tensions rise between the Federation and the remnants of the Principality of Zeon, Kou finds himself caught in the middle of a conflict involving stolen Gundam technology, the mysterious Delaz Fleet, and the pursuit of the powerful Gundam GP02 'Physalis'.",
+        "'Stardust Memory' is known for its high-quality animation, intense action sequences, and complex political intrigue, as well as its exploration of themes such as war, revenge, and redemption.",
+        "The series features a cast of memorable characters, including Anavel Gato, the 'Nightmare of Solomon', and Nina Purpleton, a Federation engineer caught between loyalty and conscience.",
+        "'Mobile Suit Gundam 0083: Stardust Memory' is praised by fans for its engaging storyline, stunning visuals, and contributions to the lore of the Universal Century timeline."
+      ]
+    },
+    {
+      "tag": "Victory Gundam",
+      "patterns": [
+        "What is 'Mobile Suit Victory Gundam'?",
+        "Tell me about 'Victory Gundam'.",
+        "Explain the plot of 'Mobile Suit Victory Gundam'.",
+        "'Victory Gundam' anime series",
+        "Characters in 'Victory Gundam'",
+        "Main storyline of 'Victory Gundam'"
+      ],
+      "responses": [
+        "'Mobile Suit Victory Gundam' is a Japanese anime television series produced by Sunrise, airing from 1993 to 1994.",
+        "It is the fourth installment in the Universal Century timeline of the Gundam franchise, set in the year UC 0153.",
+        "The series follows the story of Uso Ewin, a young boy who becomes involved in the conflict between the Earth Federation and the Zanscare Empire.",
+        "As Uso pilots the Victory Gundam, he joins the League Militaire, a resistance group fighting against the oppressive rule of the Zanscare Empire and its leader, Queen Maria Pia Armonia.",
+        "'Victory Gundam' explores themes of war, identity, and the consequences of conflict, as well as the struggle for freedom and justice in a dystopian future.",
+        "The series features a diverse cast of characters, including Uso's allies and adversaries, as well as a variety of mobile suit units and factions vying for control of the Earth Sphere.",
+        "'Mobile Suit Victory Gundam' is known for its darker tone and mature themes, as well as its memorable battles and dramatic storytelling."
+      ]
+    },
+    {
+      "tag": "Narrative",
+      "patterns": [
+        "What is 'Mobile Suit Gundam Narrative'?",
+        "Tell me about 'Gundam Narrative'.",
+        "Explain the plot of 'Mobile Suit Gundam Narrative'.",
+        "'Gundam Narrative' movie",
+        "Characters in 'Gundam Narrative'",
+        "Main storyline of 'Gundam Narrative'"
+      ],
+      "responses": [
+        "'Mobile Suit Gundam Narrative' is a Japanese animated film released in 2018.",
+        "It is part of the Universal Century timeline of the Gundam franchise and is set in the year UC 0097, a year after the events of 'Mobile Suit Gundam Unicorn'.",
+        "The film follows the story of three young pilots - Jona Basta, Michelle Luio, and Rita Bernal - who are tasked with investigating the mysterious phenomenon known as the 'Laplace's Box'.",
+        "As they delve deeper into the secrets surrounding Laplace's Box and the existence of Newtypes, they become embroiled in a conflict involving the Neo Zeon remnants and the Earth Federation.",
+        "'Gundam Narrative' explores themes of identity, power, and the legacy of the Universal Century, as well as the consequences of humanity's pursuit of technological advancement.",
+        "The film features stunning animation, intense mecha battles, and a gripping storyline that expands upon the events of 'Mobile Suit Gundam Unicorn' while setting the stage for future developments in the Universal Century timeline.",
+        "Overall, 'Mobile Suit Gundam Narrative' is a must-watch for fans of the Gundam franchise, offering a compelling and thought-provoking addition to the ongoing saga of the Universal Century."
+      ]
+    },
+    {
+      "tag": "Turn A Gundam",
+      "patterns": [
+        "What is 'Turn A Gundam'?",
+        "Tell me about 'Turn A Gundam'.",
+        "Explain the plot of 'Turn A Gundam'.",
+        "'Turn A Gundam' anime series",
+        "Characters in 'Turn A Gundam'",
+        "Main storyline of 'Turn A Gundam'"
+      ],
+      "responses": [
+        "'Turn A Gundam' is a Japanese anime television series produced by Sunrise, airing from 1999 to 2000.",
+        "It is set in the Correct Century timeline, a distant future where Earth has reverted to a pre-industrial society after a series of devastating conflicts known as the Dark History.",
+        "The series follows the story of Loran Cehack, a young man from the Moon who is sent to Earth as part of a reconnaissance mission for the Moonrace, a technologically advanced civilization.",
+        "As Loran becomes involved with the people of Earth and discovers the truth about the Dark History, he finds himself caught in the middle of a conflict between the Moonrace and the inhabitants of Earth.",
+        "'Turn A Gundam' is known for its unique setting, blending elements of science fiction and steampunk with themes of peace, understanding, and the consequences of war.",
+        "The series features a diverse cast of characters, including Loran's allies and adversaries, as well as a variety of mobile suit units and factions vying for control of the Earth and its resources.",
+        "'Turn A Gundam' received critical acclaim for its originality, complex storyline, and character development, making it a beloved entry in the Gundam franchise."
+      ]
+    }
   ]
 }
